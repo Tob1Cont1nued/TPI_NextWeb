@@ -13,5 +13,8 @@ import { NzMenuModule } from 'ng-zorro-antd/menu';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  title(title: any) {
+    throw new Error('Method not implemented.');
+  }
   isCollapsed = false;
 }
