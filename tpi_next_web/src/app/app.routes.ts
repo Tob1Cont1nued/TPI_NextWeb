@@ -18,12 +18,14 @@ import { TeststrategyComponent } from './pages/teststrategy/teststrategy.compone
 import { TestwaremanagementComponent } from './pages/testwaremanagement/testwaremanagement.component';
 import { ToolsComponent } from './pages/tools/tools.component';
 import { WelcomeComponent } from './pages/welcome/welcome.component';
+import { CommunicationComponent } from './pages/communication/communication.component';
 
 export const routes: Routes = [
   { path: 'welcome', component: WelcomeComponent},
   { path: 'engagement', component: EngagementComponent },
   { path: 'management', component: ManagementComponent },
   { path: 'competence', component: CompetenceComponent },
+  { path: 'communication', component: CommunicationComponent },
   { path: 'defectmanagement', component: DefectmanagementComponent },
   { path: 'environment', component: EnvironmentComponent },
   { path: 'methodical-approach', component: MethodicalApproachComponent},
