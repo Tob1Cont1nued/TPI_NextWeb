@@ -1,0 +1,28 @@
+.engagement-container {
+    padding: 20px;
+  }
+  
+  .engagement-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .engagement-table th, .engagement-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .engagement-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .engagement-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .engagement-table tr:hover {
+    background-color: #ddd;
+  }
+  
