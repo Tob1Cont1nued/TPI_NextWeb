@@ -1,0 +1,37 @@
+<!-- register.component.html -->
+<nz-card nzTitle="Register" class="register-card">
+    <form nz-form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+      <nz-form-item>
+        <nz-form-label nzRequired nzFor="username">Username</nz-form-label>
+        <nz-form-control>
+          <input nz-input formControlName="username" placeholder="Please enter your username" />
+          <nz-form-explain *ngIf="registerForm.get('username')?.invalid && registerForm.get('username')?.touched">
+            Please input your username!
+          </nz-form-explain>
+        </nz-form-control>
+      </nz-form-item>
+  
+      <nz-form-item>
+        <nz-form-label nzRequired nzFor="password">Password</nz-form-label>
+        <nz-form-control>
+          <input nz-input type="password" formControlName="password" placeholder="Please enter your password" />
+          <nz-form-explain *ngIf="registerForm.get('password')?.invalid && registerForm.get('password')?.touched">
+            Please input your password!
+          </nz-form-explain>
+        </nz-form-control>
+      </nz-form-item>
+  
+      <nz-form-item>
+        <nz-form-label nzRequired nzFor="confirmPassword">Confirm Password</nz-form-label>
+        <nz-form-control>
+          <input nz-input type="password" formControlName="confirmPassword" placeholder="Please confirm your password" />
+          <nz-form-explain *ngIf="registerForm.get('confirmPassword')?.invalid && registerForm.get('confirmPassword')?.touched">
+            Please confirm your password!
+          </nz-form-explain>
+        </nz-form-control>
+      </nz-form-item>
+  
+      <button nz-button nzType="primary" [disabled]="registerForm.invalid">Register</button>
+    </form>
+  </nz-card>
+  
