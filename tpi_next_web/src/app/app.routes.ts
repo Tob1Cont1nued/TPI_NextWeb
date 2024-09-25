@@ -19,6 +19,7 @@ import { TestwaremanagementComponent } from './pages/testwaremanagement/testware
 import { ToolsComponent } from './pages/tools/tools.component';
 import { WelcomeComponent } from './pages/welcome/welcome.component';
 import { CommunicationComponent } from './pages/communication/communication.component';
+import { LandingPageComponent } from './pages/landing-page/landing-page.component';
 
 export const routes: Routes = [
   { path: 'welcome', component: WelcomeComponent},
@@ -39,7 +40,8 @@ export const routes: Routes = [
   { path: 'testprocessmanagement', component: TestprocessmanagementComponent},
   { path: 'teststrategy', component: TeststrategyComponent},
   { path: 'testwaremanagement', component: TestwaremanagementComponent},
-  { path: 'tools', component: ToolsComponent}
+  { path: 'tools', component: ToolsComponent},
+  { path: '', component: LandingPageComponent }
 ];
 
 @NgModule({
