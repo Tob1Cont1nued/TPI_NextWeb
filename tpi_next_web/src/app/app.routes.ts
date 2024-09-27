@@ -19,10 +19,12 @@ import { TestwaremanagementComponent } from './pages/testwaremanagement/testware
 import { ToolsComponent } from './pages/tools/tools.component';
 import { WelcomeComponent } from './pages/welcome/welcome.component';
 import { CommunicationComponent } from './pages/communication/communication.component';
+import { LoginComponent } from './pages/login/login.component.spec';
 
 export const routes: Routes = [
-  { path: '', redirectTo: '/welcome', pathMatch: 'full'},
-  { path: 'welcome', component: WelcomeComponent,},
+  { path: '', redirectTo: '/login', pathMatch: 'full'},
+  { path: 'login', component: LoginComponent },
+  { path: 'welcome', component: WelcomeComponent },
   { path: 'engagement', component: EngagementComponent },
   { path: 'management', component: ManagementComponent },
   { path: 'competence', component: CompetenceComponent },
