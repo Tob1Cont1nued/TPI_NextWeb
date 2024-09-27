@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+/* styles.css oder in der spezifischen Komponente */
+.ant-layout-sider {
+    /*background-color: #f0f2f5; Hintergrundfarbe der Sidebar */
+  }
+  
+  .ant-menu-item-selected {
+    background-color: #5d156b; /* Hintergrundfarbe für den ausgewählten Menüpunkt */
+    color: #fff; /* Schriftfarbe für den ausgewählten Menüpunkt */
+  }
+  
+  /* Optional: Hover-Zustand für ausgewählte Elemente */
+  .ant-menu-item-selected:hover {
+    background-color: #389e18; /* Hover-Hintergrundfarbe */
+  }
