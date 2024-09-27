@@ -21,7 +21,8 @@ import { WelcomeComponent } from './pages/welcome/welcome.component';
 import { CommunicationComponent } from './pages/communication/communication.component';
 
 export const routes: Routes = [
-  { path: 'welcome', component: WelcomeComponent},
+  { path: '', redirectTo: '/welcome', pathMatch: 'full'},
+  { path: 'welcome', component: WelcomeComponent,},
   { path: 'engagement', component: EngagementComponent },
   { path: 'management', component: ManagementComponent },
   { path: 'competence', component: CompetenceComponent },
