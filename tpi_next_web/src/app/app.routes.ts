@@ -19,10 +19,12 @@ import { TestwaremanagementComponent } from './pages/testwaremanagement/testware
 import { ToolsComponent } from './pages/tools/tools.component';
 import { WelcomeComponent } from './pages/welcome/welcome.component';
 import { CommunicationComponent } from './pages/communication/communication.component';
-import { LandingPageComponent } from './pages/landing-page/landing-page.component';
+import { LoginComponent } from './pages/login/login.component.spec';
 
 export const routes: Routes = [
-  { path: 'welcome', component: WelcomeComponent},
+  { path: '', redirectTo: '/login', pathMatch: 'full'},
+  { path: 'login', component: LoginComponent },
+  { path: 'welcome', component: WelcomeComponent },
   { path: 'engagement', component: EngagementComponent },
   { path: 'management', component: ManagementComponent },
   { path: 'competence', component: CompetenceComponent },
@@ -40,8 +42,7 @@ export const routes: Routes = [
   { path: 'testprocessmanagement', component: TestprocessmanagementComponent},
   { path: 'teststrategy', component: TeststrategyComponent},
   { path: 'testwaremanagement', component: TestwaremanagementComponent},
-  { path: 'tools', component: ToolsComponent},
-  { path: '', component: LandingPageComponent }
+  { path: 'tools', component: ToolsComponent}
 ];
 
 @NgModule({

@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "serve:ssr:tpi_next_web",
+			"path": "tpi_next_web",
+			"problemMatcher": [
+				"$go"
+			],
+			"label": "npm: serve:ssr:tpi_next_web - tpi_next_web",
+			"detail": "node dist/tpi_next_web/server/server.mjs"
+		}
+	]
+}
