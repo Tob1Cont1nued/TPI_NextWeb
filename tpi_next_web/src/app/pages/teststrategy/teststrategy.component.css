@@ -1,0 +1,28 @@
+.teststrategy-container {
+    padding: 20px;
+  }
+  
+  .teststrategy-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .teststrategy-table th, .teststrategy-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .teststrategy-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .teststrategy-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .teststrategy-table tr:hover {
+    background-color: #ddd;
+  }
+  

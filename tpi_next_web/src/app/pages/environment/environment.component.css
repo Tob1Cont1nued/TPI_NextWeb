@@ -1,0 +1,28 @@
+.environment-container {
+    padding: 20px;
+  }
+  
+  .environment-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .environment-table th, .environment-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .environment-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .environment-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .environment-table tr:hover {
+    background-color: #ddd;
+  }
+  

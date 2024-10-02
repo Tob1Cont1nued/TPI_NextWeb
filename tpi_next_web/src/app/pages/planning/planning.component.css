@@ -1,0 +1,28 @@
+.planning-container {
+    padding: 20px;
+  }
+  
+  .planning-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .planning-table th, .planning-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .planning-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .planning-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .planning-table tr:hover {
+    background-color: #ddd;
+  }
+  

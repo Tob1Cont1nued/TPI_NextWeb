@@ -1,0 +1,28 @@
+.communication-container {
+    padding: 20px;
+  }
+  
+  .communication-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .communication-table th, .communication-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .communication-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .communication-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .communication-table tr:hover {
+    background-color: #ddd;
+  }
+  

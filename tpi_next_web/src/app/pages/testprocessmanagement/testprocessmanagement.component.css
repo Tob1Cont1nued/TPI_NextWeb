@@ -1,0 +1,28 @@
+.testprocessmanagement-container {
+    padding: 20px;
+  }
+  
+  .testprocessmanagement-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .testprocessmanagement-table th, .testprocessmanagement-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .testprocessmanagement-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .testprocessmanagement-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .testprocessmanagement-table tr:hover {
+    background-color: #ddd;
+  }
+  

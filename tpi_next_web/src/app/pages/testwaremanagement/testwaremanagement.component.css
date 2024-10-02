@@ -1,0 +1,28 @@
+.testwaremanagement-container {
+    padding: 20px;
+  }
+  
+  .testwaremanagement-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .testwaremanagement-table th, .testwaremanagement-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .testwaremanagement-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .testwaremanagement-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .testwaremanagement-table tr:hover {
+    background-color: #ddd;
+  }
+  

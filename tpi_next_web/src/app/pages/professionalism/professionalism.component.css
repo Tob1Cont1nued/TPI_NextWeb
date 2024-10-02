@@ -1,0 +1,28 @@
+.professionalism-container {
+    padding: 20px;
+  }
+  
+  .professionalism-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .professionalism-table th, .professionalism-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .professionalism-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .professionalism-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .professionalism-table tr:hover {
+    background-color: #ddd;
+  }
+  
