@@ -1,1 +1,43 @@
-<p>reporting works!</p>
+<div class="reporting-container">
+    <h2>Berichterstattung</h2>
+    <h3>Gibt dem Auftraggeber/Stakeholder konkrete Informationen über Produktqualität/Rsiken, sodass Entscheidungen getroffen werden können</h3>
+    <form [formGroup]="ratingForm" (ngSubmit)="onSubmit()">
+      <table class="reporting-table">
+        <thead>
+          <tr>
+            <th>Bewertungsfragen</th>
+            <th>Hilfsfragen</th>
+            <th>Liefergegenstände</th>
+            <th>Bewertung</th>
+            <th>Ihr Wert</th>
+            <th>Gewichtung</th>
+            <th>Findings</th>
+            <th>Maßnahmen</th>
+            <th>Interviewpartner</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let question of questions; let i = index">
+            <td>{{ question.question }}</td>
+            <td>{{ question.help }}</td>
+            <td>{{ question.artifact }}</td>
+            <td>
+              <!-- Dropdown for the rating -->
+              <select formControlName="rating{{ i }}">
+                <option *ngFor="let option of ratingOptions" [value]="option">
+                  {{ option }}
+                </option>
+              </select>
+            </td>
+            <td>{{ question.yourValue }}</td>
+            <td>{{ question.weight }}</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <button type="submit">Speichern</button>
+    </form>
+  </div>
+  

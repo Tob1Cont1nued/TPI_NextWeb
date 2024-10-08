@@ -1,0 +1,28 @@
+.metrics-container {
+    padding: 20px;
+  }
+  
+  .metrics-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .metrics-table th, .metrics-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .metrics-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .metrics-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .metrics-table tr:hover {
+    background-color: #ddd;
+  }
+  

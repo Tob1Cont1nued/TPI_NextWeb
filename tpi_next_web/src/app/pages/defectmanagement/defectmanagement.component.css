@@ -1,0 +1,28 @@
+.defectmanagement-container {
+    padding: 20px;
+  }
+  
+  .defectmanagement-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .defectmanagement-table th, .defectmanagement-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .defectmanagement-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .defectmanagement-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .defectmanagement-table tr:hover {
+    background-color: #ddd;
+  }
+  

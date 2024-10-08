@@ -1,0 +1,28 @@
+.competence-container {
+    padding: 20px;
+  }
+  
+  .competence-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .competence-table th, .competence-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .competence-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .competence-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .competence-table tr:hover {
+    background-color: #ddd;
+  }
+  

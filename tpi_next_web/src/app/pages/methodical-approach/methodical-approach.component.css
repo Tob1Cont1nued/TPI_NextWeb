@@ -1,0 +1,28 @@
+.methodical-approach-container {
+    padding: 20px;
+  }
+  
+  .methodical-approach-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .methodical-approach-table th, .methodical-approach-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .methodical-approach-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .methodical-approach-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .methodical-approach-table tr:hover {
+    background-color: #ddd;
+  }
+  
