@@ -84,6 +84,21 @@
                [nzType]="isCollapsed ? 'menu-unfold' : 'menu-fold'"
             ></span>
         </span>
+
+        <div class="profile-icon" nz-dropdown [nzDropdownMenu]="profileMenu" nzTrigger="click">
+          <img src="/assets/profile.png" alt="Profil" class="profile-image"/>
+        </div>
+        <nz-dropdown-menu #profileMenu="nzDropdownMenu">
+          <ul nz-menu>
+            <li nz-menu-item>
+              <a routerLink="/profile">Profil ansehen</a>
+            </li>
+            <li nz-menu-item>
+              <a (click)="onLogout()">Abmelden</a>
+            </li>
+          </ul>
+        </nz-dropdown-menu>
+
       </div>
     </nz-header>
     <nz-content>

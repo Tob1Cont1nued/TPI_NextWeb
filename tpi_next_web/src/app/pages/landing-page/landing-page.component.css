@@ -1,4 +1,4 @@
-.introduction {
+/* .introduction {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,15 +21,16 @@
 
   .separator {
     width: 10px;
-    height: 100%; /* Passe die Höhe an, wenn nötig */
-    background-color: #202020; /* Passe die Farbe an */
+    height: 100%; /* Passe die Höhe an, wenn nötig 
+    background-color: #202020; /* Passe die Farbe an 
   }
   
   .text-container {
     flex: 1;
     padding-top: 20px;
-    padding-left: 20px; /* Passe den Abstand zum Text an */
+    padding-left: 20px; /* Passe den Abstand zum Text an 
     padding-right: 100px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-  }
+  } 
+*/
