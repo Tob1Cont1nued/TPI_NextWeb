@@ -20,6 +20,7 @@ import { ToolsComponent } from './pages/tools/tools.component';
 import { WelcomeComponent } from './pages/welcome/welcome.component';
 import { CommunicationComponent } from './pages/communication/communication.component';
 import { LoginComponent } from './pages/login/login.component.spec';
+import { EvaluationComponent } from './pages/evaluation/evaluation.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: '/login', pathMatch: 'full'},
@@ -42,7 +43,8 @@ export const routes: Routes = [
   { path: 'testprocessmanagement', component: TestprocessmanagementComponent},
   { path: 'teststrategy', component: TeststrategyComponent},
   { path: 'testwaremanagement', component: TestwaremanagementComponent},
-  { path: 'tools', component: ToolsComponent}
+  { path: 'tools', component: ToolsComponent},
+  { path: 'evaluation', component: EvaluationComponent}
 ];
 
 @NgModule({
