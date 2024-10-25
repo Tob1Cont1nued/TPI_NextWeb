@@ -1,0 +1,233 @@
+{
+    "questions": {
+      "communication": {
+        "1": {
+          "question": "Frage 1 zur Kommunikation",
+          "help": "Hilfe zur Frage 1 zur Kommunikation",
+          "artifact": "Artefakt zur Frage 1 zur Kommunikation"
+        },
+        "2": {
+          "question": "Frage 2 zur Kommunikation",
+          "help": "Hilfe zur Frage 2 zur Kommunikation",
+          "artifact": "Artefakt zur Frage 2 zur Kommunikation"
+        }
+      },
+      "competence": {
+        "1": {
+          "question": "Frage 1 zur Kompetenz",
+          "help": "Hilfe zur Frage 1 zur Kompetenz",
+          "artifact": "Artefakt zur Frage 1 zur Kompetenz"
+        },
+        "2": {
+          "question": "Frage 2 zur Kompetenz",
+          "help": "Hilfe zur Frage 2 zur Kompetenz",
+          "artifact": "Artefakt zur Frage 2 zur Kompetenz"
+        }
+      },
+      "defectmanagement": {
+        "1": {
+          "question": "Frage 1 zum Defektmanagement",
+          "help": "Hilfe zur Frage 1 zum Defektmanagement",
+          "artifact": "Artefakt zur Frage 1 zum Defektmanagement"
+        },
+        "2": {
+          "question": "Frage 2 zum Defektmanagement",
+          "help": "Hilfe zur Frage 2 zum Defektmanagement",
+          "artifact": "Artefakt zur Frage 2 zum Defektmanagement"
+        }
+      },
+      "engagement": {
+        "1": {
+          "question": "Frage 1 zum Engagement",
+          "help": "Hilfe zur Frage 1 zum Engagement",
+          "artifact": "Artefakt zur Frage 1 zum Engagement"
+        },
+        "2": {
+          "question": "Frage 2 zum Engagement",
+          "help": "Hilfe zur Frage 2 zum Engagement",
+          "artifact": "Artefakt zur Frage 2 zum Engagement"
+        }
+      },
+      "environment": {
+        "1": {
+          "question": "Frage 1 zur Umgebung",
+          "help": "Hilfe zur Frage 1 zur Umgebung",
+          "artifact": "Artefakt zur Frage 1 zur Umgebung"
+        },
+        "2": {
+          "question": "Frage 2 zur Umgebung",
+          "help": "Hilfe zur Frage 2 zur Umgebung",
+          "artifact": "Artefakt zur Frage 2 zur Umgebung"
+        }
+      },
+      "management": {
+        "1": {
+          "question": "Frage 1 zum Management",
+          "help": "Hilfe zur Frage 1 zum Management",
+          "artifact": "Artefakt zur Frage 1 zum Management"
+        },
+        "2": {
+          "question": "Frage 2 zum Management",
+          "help": "Hilfe zur Frage 2 zum Management",
+          "artifact": "Artefakt zur Frage 2 zum Management"
+        }
+      },
+      "methodical-approach": {
+        "1": {
+          "question": "Frage 1 zum methodischen Ansatz",
+          "help": "Hilfe zur Frage 1 zum methodischen Ansatz",
+          "artifact": "Artefakt zur Frage 1 zum methodischen Ansatz"
+        },
+        "2": {
+          "question": "Frage 2 zum methodischen Ansatz",
+          "help": "Hilfe zur Frage 2 zum methodischen Ansatz",
+          "artifact": "Artefakt zur Frage 2 zum methodischen Ansatz"
+        }
+      },
+      "metrics": {
+        "1": {
+          "question": "Frage 1 zu Metriken",
+          "help": "Hilfe zur Frage 1 zu Metriken",
+          "artifact": "Artefakt zur Frage 1 zu Metriken"
+        },
+        "2": {
+          "question": "Frage 2 zu Metriken",
+          "help": "Hilfe zur Frage 2 zu Metriken",
+          "artifact": "Artefakt zur Frage 2 zu Metriken"
+        }
+      },
+      "participation": {
+        "1": {
+          "question": "Frage 1 zur Teilnahme",
+          "help": "Hilfe zur Frage 1 zur Teilnahme",
+          "artifact": "Artefakt zur Frage 1 zur Teilnahme"
+        },
+        "2": {
+          "question": "Frage 2 zur Teilnahme",
+          "help": "Hilfe zur Frage 2 zur Teilnahme",
+          "artifact": "Artefakt zur Frage 2 zur Teilnahme"
+        }
+      },
+      "planning": {
+        "1": {
+          "question": "Frage 1 zur Planung",
+          "help": "Hilfe zur Frage 1 zur Planung",
+          "artifact": "Artefakt zur Frage 1 zur Planung"
+        },
+        "2": {
+          "question": "Frage 2 zur Planung",
+          "help": "Hilfe zur Frage 2 zur Planung",
+          "artifact": "Artefakt zur Frage 2 zur Planung"
+        }
+      },
+      "professionalism": {
+        "1": {
+          "question": "Frage 1 zur Professionalität",
+          "help": "Hilfe zur Frage 1 zur Professionalität",
+          "artifact": "Artefakt zur Frage 1 zur Professionalität"
+        },
+        "2": {
+          "question": "Frage 2 zur Professionalität",
+          "help": "Hilfe zur Frage 2 zur Professionalität",
+          "artifact": "Artefakt zur Frage 2 zur Professionalität"
+        }
+      },
+      "register": {
+        "1": {
+          "question": "Frage 1 zum Register",
+          "help": "Hilfe zur Frage 1 zum Register",
+          "artifact": "Artefakt zur Frage 1 zum Register"
+        },
+        "2": {
+          "question": "Frage 2 zum Register",
+          "help": "Hilfe zur Frage 2 zum Register",
+          "artifact": "Artefakt zur Frage 2 zum Register"
+        }
+      },
+      "reporting": {
+        "1": {
+          "question": "Frage 1 zum Reporting",
+          "help": "Hilfe zur Frage 1 zum Reporting",
+          "artifact": "Artefakt zur Frage 1 zum Reporting"
+        },
+        "2": {
+          "question": "Frage 2 zum Reporting",
+          "help": "Hilfe zur Frage 2 zum Reporting",
+          "artifact": "Artefakt zur Frage 2 zum Reporting"
+        }
+      },
+      "testdesign": {
+        "1": {
+          "question": "Frage 1 zum Testdesign",
+          "help": "Hilfe zur Frage 1 zum Testdesign",
+          "artifact": "Artefakt zur Frage 1 zum Testdesign"
+        },
+        "2": {
+          "question": "Frage 2 zum Testdesign",
+          "help": "Hilfe zur Frage 2 zum Testdesign",
+          "artifact": "Artefakt zur Frage 2 zum Testdesign"
+        }
+      },
+      "testorganisation": {
+        "1": {
+          "question": "Frage 1 zur Testorganisation",
+          "help": "Hilfe zur Frage 1 zur Testorganisation",
+          "artifact": "Artefakt zur Frage 1 zur Testorganisation"
+        },
+        "2": {
+          "question": "Frage 2 zur Testorganisation",
+          "help": "Hilfe zur Frage 2 zur Testorganisation",
+          "artifact": "Artefakt zur Frage 2 zur Testorganisation"
+        }
+      },
+      "testprocessmanagement": {
+        "1": {
+          "question": "Frage 1 zum Testprozessmanagement",
+          "help": "Hilfe zur Frage 1 zum Testprozessmanagement",
+          "artifact": "Artefakt zur Frage 1 zum Testprozessmanagement"
+        },
+        "2": {
+          "question": "Frage 2 zum Testprozessmanagement",
+          "help": "Hilfe zur Frage 2 zum Testprozessmanagement",
+          "artifact": "Artefakt zur Frage 2 zum Testprozessmanagement"
+        }
+      },
+      "teststrategy": {
+        "1": {
+          "question": "Frage 1 zur Teststrategie",
+          "help": "Hilfe zur Frage 1 zur Teststrategie",
+          "artifact": "Artefakt zur Frage 1 zur Teststrategie"
+        },
+        "2": {
+          "question": "Frage 2 zur Teststrategie",
+          "help": "Hilfe zur Frage 2 zur Teststrategie",
+          "artifact": "Artefakt zur Frage 2 zur Teststrategie"
+        }
+      },
+      "testwaremanagement": {
+        "1": {
+          "question": "Frage 1 zum Testwaremanagement",
+          "help": "Hilfe zur Frage 1 zum Testwaremanagement",
+          "artifact": "Artefakt zur Frage 1 zum Testwaremanagement"
+        },
+        "2": {
+          "question": "Frage 2 zum Testwaremanagement",
+          "help": "Hilfe zur Frage 2 zum Testwaremanagement",
+          "artifact": "Artefakt zur Frage 2 zum Testwaremanagement"
+        }
+      },
+      "tools": {
+        "1": {
+          "question": "Frage 1 zu Tools",
+          "help": "Hilfe zur Frage 1 zu Tools",
+          "artifact": "Artefakt zur Frage 1 zu Tools"
+        },
+        "2": {
+          "question": "Frage 2 zu Tools",
+          "help": "Hilfe zur Frage 2 zu Tools",
+          "artifact": "Artefakt zur Frage 2 zu Tools"
+        }
+      }
+    }
+  }
+  
