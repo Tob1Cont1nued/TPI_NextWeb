@@ -1,233 +1,545 @@
 {
     "questions": {
-      "communication": {
-        "1": {
-          "question": "Frage 1 zur Kommunikation",
-          "help": "Hilfe zur Frage 1 zur Kommunikation",
-          "artifact": "Artefakt zur Frage 1 zur Kommunikation"
+        "communication": {
+            "1": {
+                "question": "Die Teammitglieder werden über Entscheidungen im Projekt informiert",
+                "help": "Wie erhalten Sie Informationen zu Entscheidungen im Projekt?",
+                "artifact": "Kommunikationsplan (Was wird wann von wem kommuniziert und wer bekommt diese Info?)"
+            },
+            "2": {
+                "question": "Alle Teammitglieder kennen den Status und die Phase in der sich das Projekt befindet",
+                "help": "In welcher Projektphase befindet sich das Projekt aktuell? Wie ist der Status als Farbe gekennzeichnet?",
+                "artifact": ""
+            },
+            "3": {
+                "question": "Entscheidungen, Handlungen und Ergebnisse des Testteams können zurückverfolgt werden",
+                "help": "Wie werden Entscheidungen vom Testteam festgehalten? Wie kann ein neues Projektmitglied über bisherige Entscheidungen informiert werden?",
+                "artifact": ""
+            },
+            "4": {
+                "question": "Es gibt regelmäßigen Austausch zwischen Testteam und Stakeholdern über: Projekt und Testfortschritt, Qualität des Produktes und Risiken",
+                "help": "Gibt es ein Statusmeeting über den Testfortschritt und Fehler? Gibt es einen Statusbericht?",
+                "artifact": ""
+            },
+            "5": {
+                "question": "Das Testteam gibt vorausschauend Hinweise auf Verzögerungen/Probleme im Test an die Stakeholder",
+                "help": "Ist im Status eine Risikoabfrage vorhanden? Wie werden Probleme im Test adressiert? Gibt es Möglichkeiten der Handlung bei Problemen, oder müssen diese akzeptiert werden?",
+                "artifact": ""
+            },
+            "6": {
+                "question": "Das Testteam fragt aktiv nach für den Test relevanten Informationen bei den Stakeholdern nach",
+                "help": "Fragen Sie regelmäßig nach veränderten/aktualisierten Anforderungen oder neuen Entwicklungen?",
+                "artifact": ""
+            }
         },
-        "2": {
-          "question": "Frage 2 zur Kommunikation",
-          "help": "Hilfe zur Frage 2 zur Kommunikation",
-          "artifact": "Artefakt zur Frage 2 zur Kommunikation"
-        }
-      },
-      "competence": {
-        "1": {
-          "question": "Frage 1 zur Kompetenz",
-          "help": "Hilfe zur Frage 1 zur Kompetenz",
-          "artifact": "Artefakt zur Frage 1 zur Kompetenz"
+        "competence": {
+            "1": {
+                "question": "Der Anforderungsmanager/Fachbereich zuständig für die Anforderungen ist bekannt",
+                "help": "Wissen Sie wer für welche Anforderung fachlich zuständig ist?",
+                "artifact": "Testfälle, Abnahmekriterien, Akzeptanzkriterien"
+            },
+            "2": {
+                "question": "Die Tester kennen den Auftraggeber",
+                "help": "Wer ist Ihr Auftraggeber?",
+                "artifact": ""
+            },
+            "3": {
+                "question": "Der Auftraggeber hat das Budget bewilligt und dieses kann mit ihm verhandelt werden",
+                "help": "Kann die Dauer des Tests mit dem Auftraggeber verhandelt werden?",
+                "artifact": ""
+            },
+            "4": {
+                "question": "Die Testressourcen werden von den Stakeholdern zur Verfügung gestellt.",
+                "help": "Werden Tester aus den Fachbereichen nach Anfrage zur Verfügung gestellt?",
+                "artifact": "Stakeholdermatrix"
+            },
+            "5": {
+                "question": "Der Auftraggeber hat eine dokumentierte Produktrisikoanalyse erstellt",
+                "help": "Gibt es eine Risikoanalyse für die Software?",
+                "artifact": "Stakeholdermatrix"
+            },
+            "6": {
+                "question": "Fachabteilungen, die mit dem Produkt arbeiten sind bekannt",
+                "help": "Welche Abteilungen arbeiten alles mit der Software?",
+                "artifact": "Stakeholdermatrix"
+            },
+            "7": {
+                "question": "Die Releaseprozesse und Ansprechpartner sind bekannt",
+                "help": "Wer ist Hauptansprechpartner im Releasemanagement? Gibt es Freigabeszenarien für das Release?",
+                "artifact": "Stakeholdermatrix"
+            },
+            "8": {
+                "question": "Die Entwickler sind bekannt",
+                "help": "Gibt es Softwareentwickler? Wenn ja, wer ist das? intern / extern?",
+                "artifact": "Stakeholdermatrix"
+            },
+            "9": {
+                "question": "Die Softwarearchitekten sind bekannt",
+                "help": "Gibt es Softwarearchitekten? Wenn ja, wer ist das?",
+                "artifact": "Stakeholdermatrix"
+            }
         },
-        "2": {
-          "question": "Frage 2 zur Kompetenz",
-          "help": "Hilfe zur Frage 2 zur Kompetenz",
-          "artifact": "Artefakt zur Frage 2 zur Kompetenz"
-        }
-      },
-      "defectmanagement": {
-        "1": {
-          "question": "Frage 1 zum Defektmanagement",
-          "help": "Hilfe zur Frage 1 zum Defektmanagement",
-          "artifact": "Artefakt zur Frage 1 zum Defektmanagement"
+        "defectmanagement": {
+            "1": {
+                "question": "Es gibt ein Fehlermanagement inkl. Fehlerlebenszyklus, das dem Testteam/Entwicklerteam bekannt ist",
+                "help": "Wie sind die Phasen des Fehlerlebenszyklus? Wer entscheidet, ob ein Fehler geschlossen wird? Wie sieht man, dass ein Fehler im System behoben ist?",
+                "artifact": "Fehlerprozess"
+            },
+            "2": {
+                "question": "Regelmäßige Fehlerbesprechungen unterstützen das Fehlermanagement",
+                "help": "Gibt es regelmäßige Termine, um über bestimmte Fehler oder Fehleranfälligkeiten einer Komponente zu sprechen?",
+                "artifact": ""
+            },
+            "3": {
+                "question": "Verantwortliche Personen im Fehlerprozess sind definiert (Tester/Entwickler/Umgebungsmanager/Testmanager…)",
+                "help": "Wer ist alles im Fehlerprozess involviert und was sind seine Aufgaben?",
+                "artifact": ""
+            },
+            "4": {
+                "question": "Genutzte Fehlermanagementwerkzeuge sind für verantwortliche Personen nutzbar.",
+                "help": "Sind die Fehler für alle einsehbar? Sind die Schwere-Definitionen transparent und bekannt? Gibt es spezielle Debugging Tools, die ebenfalls nutzbar sind?",
+                "artifact": ""
+            },
+            "5": {
+                "question": "Der Umgang mit Fehlernachtests (komplett/partiell) ist definiert.",
+                "help": "Was wird nach der Behebung eines Fehlers getestet? Gibt es hier Richtlinien, wie viel erneut getestet wird (nur Fehler, gesamte fehlerhafte Komponente, Komponente mit anliegenden Komponenten)?",
+                "artifact": ""
+            },
+            "6": {
+                "question": "Die Mindestattribute jedes Fehlers sind: Ersteller/Tester, ID, Datum, Schwere, Beschreibung (erwartetes vs. tatsächliches Ergebnis), Titel, Status",
+                "help": "Welche Attribute werden in einem Fehler ausgefüllt?",
+                "artifact": ""
+            }
         },
-        "2": {
-          "question": "Frage 2 zum Defektmanagement",
-          "help": "Hilfe zur Frage 2 zum Defektmanagement",
-          "artifact": "Artefakt zur Frage 2 zum Defektmanagement"
-        }
-      },
-      "engagement": {
-        "1": {
-          "question": "Frage 1 zum Engagement",
-          "help": "Hilfe zur Frage 1 zum Engagement",
-          "artifact": "Artefakt zur Frage 1 zum Engagement"
+        "engagement": {
+            "1": {
+                "question": "Der Anforderungsmanager/Fachbereich zuständig für die Anforderungen ist bekannt",
+                "help": "Wissen Sie, wer für welche Anforderung fachlich zuständig ist?",
+                "artifact": "Testfälle, Abnahmekriterien, Akzeptanzkriterien"
+            },
+            "2": {
+                "question": "Die Tester kennen den Auftraggeber",
+                "help": "Wer ist Ihr Auftraggeber?",
+                "artifact": ""
+            },
+            "3": {
+                "question": "Der Auftraggeber hat das Budget bewilligt und dieses kann mit ihm verhandelt werden",
+                "help": "Kann die Dauer des Tests mit dem Auftraggeber verhandelt werden?",
+                "artifact": ""
+            },
+            "4": {
+                "question": "Die Testressourcen werden von den Stakeholdern zur Verfügung gestellt.",
+                "help": "Werden Tester aus den Fachbereichen nach Anfrage zur Verfügung gestellt?",
+                "artifact": "Stakeholdermatrix"
+            },
+            "5": {
+                "question": "Der Auftraggeber hat eine dokumentierte Produktrisikoanalyse erstellt",
+                "help": "Gibt es eine Risikoanalyse für die Software?",
+                "artifact": "Stakeholdermatrix"
+            },
+            "6": {
+                "question": "Fachabteilungen, die mit dem Produkt arbeiten, sind bekannt",
+                "help": "Welche Abteilungen arbeiten alles mit der Software?",
+                "artifact": "Stakeholdermatrix"
+            },
+            "7": {
+                "question": "Die Releaseprozesse und Ansprechpartner sind bekannt",
+                "help": "Wer ist Hauptansprechpartner im Releasemanagement? Gibt es Freigabeszenarien für das Release?",
+                "artifact": "Stakeholdermatrix"
+            },
+            "8": {
+                "question": "Die Entwickler sind bekannt",
+                "help": "Gibt es Softwareentwickler? Wenn ja, wer ist das? intern / extern?",
+                "artifact": "Stakeholdermatrix"
+            },
+            "9": {
+                "question": "Die Softwarearchitekten sind bekannt",
+                "help": "Gibt es Softwarearchitekten? Wenn ja, wer ist das?",
+                "artifact": "Stakeholdermatrix"
+            }
         },
-        "2": {
-          "question": "Frage 2 zum Engagement",
-          "help": "Hilfe zur Frage 2 zum Engagement",
-          "artifact": "Artefakt zur Frage 2 zum Engagement"
-        }
-      },
-      "environment": {
-        "1": {
-          "question": "Frage 1 zur Umgebung",
-          "help": "Hilfe zur Frage 1 zur Umgebung",
-          "artifact": "Artefakt zur Frage 1 zur Umgebung"
+        "environment": {
+            "1": {
+                "question": "Es gibt klar definierte Anforderungen an die Testumgebung.",
+                "help": "Wie viele User können gleichzeitig die Umgebung nutzen? Welche Verfügbarkeiten gibt es? Welche Anforderungen hat der testende Fachbereich?",
+                "artifact": ""
+            },
+            "2": {
+                "question": "Aufgaben und Verantwortlichkeiten zur Umgebung sind mit den zuständigen Parteien (z.B. Umgebungsmanager) definiert und abgestimmt.",
+                "help": "Wer ist für die Umgebung verantwortlich? Wer informiert über Downtimes und Testzeiten?",
+                "artifact": ""
+            },
+            "3": {
+                "question": "Die Umgebung steht in den definierten Testzeiträumen ohne Unterbrechung zur Verfügung.",
+                "help": "Steht die Umgebung während des Tests uneingeschränkt zur Verfügung?",
+                "artifact": "Umgebungskalender"
+            },
+            "4": {
+                "question": "Änderungen der Testumgebung werden rechtzeitig an den Testmanager herangetragen.",
+                "help": "Gibt es ein Change Management für Änderungen? Wie werden TM und das Team über Änderungen informiert? Wie viel Vorlaufzeit gibt es bei Änderungen? Gibt es die Möglichkeit ein Veto einzulegen?",
+                "artifact": ""
+            },
+            "5": {
+                "question": "Der Testmanager kann einen Freeze der Umgebung gemeinsam mit dem Projektleiter anfordern.",
+                "help": "Kann ein Freeze der Umgebung eingefordert werden?",
+                "artifact": ""
+            },
+            "6": {
+                "question": "Testdaten werden berücksichtigt",
+                "help": "Sind Testdaten auf allen Umgebungen für den Test vorhanden? Sind diese vollständig nutzbar?",
+                "artifact": ""
+            }
         },
-        "2": {
-          "question": "Frage 2 zur Umgebung",
-          "help": "Hilfe zur Frage 2 zur Umgebung",
-          "artifact": "Artefakt zur Frage 2 zur Umgebung"
-        }
-      },
-      "management": {
-        "1": {
-          "question": "Frage 1 zum Management",
-          "help": "Hilfe zur Frage 1 zum Management",
-          "artifact": "Artefakt zur Frage 1 zum Management"
+        "management": {
+            "1": {
+                "question": "Der Anforderungsmanager/Fachbereich zuständig für die Anforderungen ist bekannt",
+                "help": "Wissen Sie wer für welche Anforderung fachlich zuständig ist?",
+                "artifact": "Testfälle, Abnahmekriterien, Akzeptanzkriterien"
+            },
+            "2": {
+                "question": "Die Tester kennen den Auftraggeber",
+                "help": "Wer ist Ihr Auftraggeber?",
+                "artifact": ""
+            },
+            "3": {
+                "question": "Der Auftraggeber hat das Budget bewilligt und dieses kann mit ihm verhandelt werden",
+                "help": "Kann die Dauer des Tests mit dem Auftraggeber verhandelt werden?",
+                "artifact": ""
+            },
+            "4": {
+                "question": "Die Testressourcen werden von den Stakeholdern zur Verfügung gestellt.",
+                "help": "Werden Tester aus den Fachbereichen nach Anfrage zur Verfügung gestellt?",
+                "artifact": "Stakeholdermatrix"
+            },
+            "5": {
+                "question": "Der Auftraggeber hat eine dokumentierte Produktrisikoanalyse erstellt",
+                "help": "Gibt es eine Risikoanalyse für die Software?",
+                "artifact": "Stakeholdermatrix"
+            },
+            "6": {
+                "question": "Fachabteilungen, die mit dem Produkt arbeiten sind bekannt",
+                "help": "Welche Abteilungen arbeiten alles mit der Software?",
+                "artifact": "Stakeholdermatrix"
+            },
+            "7": {
+                "question": "Die Releaseprozesse und Ansprechpartner sind bekannt",
+                "help": "Wer ist Hauptansprechpartner im Releasemanagement? Gibt es Freigabeszenarien für das Release?",
+                "artifact": "Stakeholdermatrix"
+            },
+            "8": {
+                "question": "Die Entwickler sind bekannt",
+                "help": "Gibt es Softwareentwickler? Wenn ja, wer ist das? intern / extern?",
+                "artifact": "Stakeholdermatrix"
+            },
+            "9": {
+                "question": "Die Softwarearchitekten sind bekannt",
+                "help": "Gibt es Softwarearchitekten? Wenn ja, wer ist das?",
+                "artifact": "Stakeholdermatrix"
+            }
         },
-        "2": {
-          "question": "Frage 2 zum Management",
-          "help": "Hilfe zur Frage 2 zum Management",
-          "artifact": "Artefakt zur Frage 2 zum Management"
-        }
-      },
-      "methodical-approach": {
-        "1": {
-          "question": "Frage 1 zum methodischen Ansatz",
-          "help": "Hilfe zur Frage 1 zum methodischen Ansatz",
-          "artifact": "Artefakt zur Frage 1 zum methodischen Ansatz"
+        "methodicalApproach": {
+            "1": {
+                "question": "Es gibt verschiedene definierte Testlevel/Teststufen, die im Projekt verfolgt werden (Unit Tests, Komponententests, Integrationstests, Regressionstests…)",
+                "help": "",
+                "artifact": "Glossar, Abnahmekriterien"
+            },
+            "2": {
+                "question": "Die Ziele der Testlevel/Teststufen sind dokumentiert und passen zur Teststrategie.",
+                "help": "",
+                "artifact": "Testkonzept"
+            },
+            "3": {
+                "question": "Die einzelnen Testlevel/Teststufen sind abgestimmt auf das Projektvorgehen/die Entwicklung und sind schriftlich festgehalten.",
+                "help": "Sind die Umgebungen passend für den jeweiligen Test?",
+                "artifact": ""
+            },
+            "4": {
+                "question": "Das Projekt- und Testteam unterstützt die gewählten Testmethoden.",
+                "help": "",
+                "artifact": "Sign Offs als Quality Gates"
+            }
         },
-        "2": {
-          "question": "Frage 2 zum methodischen Ansatz",
-          "help": "Hilfe zur Frage 2 zum methodischen Ansatz",
-          "artifact": "Artefakt zur Frage 2 zum methodischen Ansatz"
-        }
-      },
-      "metrics": {
-        "1": {
-          "question": "Frage 1 zu Metriken",
-          "help": "Hilfe zur Frage 1 zu Metriken",
-          "artifact": "Artefakt zur Frage 1 zu Metriken"
+        "metrics": {
+            "1": {
+                "question": "Es werden Metriken verwendet, die das Testprojekt bewerten und monitoren.",
+                "help": "Gibt es Metriken, die das Testobjekt bewerten?",
+                "artifact": ""
+            },
+            "2": {
+                "question": "Die benötigten Daten werden synchron ermittelt und alle Metriken werden zentral gespeichert.",
+                "help": "Werden die zugrundeliegenden Daten der Metriken synchron ermittelt und zentral gespeichert?",
+                "artifact": ""
+            },
+            "3": {
+                "question": "Es gibt Prüfungen zur Validierung der genutzten Daten (Stichproben)",
+                "help": "Werden die genutzten Metriken stichprobenartig geprüft, ob die Daten valide sind bzw. Filter richtig eingestellt sind?",
+                "artifact": ""
+            },
+            "4": {
+                "question": "Mindestens 7 der folgenden Metriken werden genutzt: Testüberdeckungsverhältnis, Anzahl Testfälle geplant/bereits erstellt, Testfortschritt (Ist/Plan), Testdurchführungsverhältnis, Fehlerschwere, Anzahl Produktionsfehler, Verbrauchter Budgetanteil, Testphasen/verbrauchte Stunden, Leerlaufrate, Testendekriterien)",
+                "help": "Welche Metriken werden genutzt?",
+                "artifact": ""
+            }
         },
-        "2": {
-          "question": "Frage 2 zu Metriken",
-          "help": "Hilfe zur Frage 2 zu Metriken",
-          "artifact": "Artefakt zur Frage 2 zu Metriken"
-        }
-      },
-      "participation": {
-        "1": {
-          "question": "Frage 1 zur Teilnahme",
-          "help": "Hilfe zur Frage 1 zur Teilnahme",
-          "artifact": "Artefakt zur Frage 1 zur Teilnahme"
+        "participation": {
+            "1": {
+                "question": "Der Umfang, der Testauftrag und das Vorgehen sind mit dem Auftraggeber vereinbart",
+                "help": "Kennt der Auftraggeber die geschätzte Dauer vom Tests? Kennt er die Inhalte und hat diesen zugestimmt?",
+                "artifact": ""
+            },
+            "2": {
+                "question": "Eine Person des Testteams wird in die Projektplanung einbezogen, sodass Abhängigkeiten zwischen dem Testprozess und anderen Prozessen (z.B. Anforderungsmanagement) berücksichtigt werden können",
+                "help": "Ist jemand aus dem Testteam von Anfang an im Projekt dabei? Bekommt er mit, wenn Anforderungen definiert sind und wenn Entwicklungsobjekte testbereit sind?",
+                "artifact": ""
+            },
+            "3": {
+                "question": "Ein Tester wird bei der Analyse, Bewertung und des Managements von Projektrisiken einbezogen.",
+                "help": "",
+                "artifact": ""
+            },
+            "4": {
+                "question": "Die Testplanung erfolgt gleichzeitig mit der Projektplanung",
+                "help": "Wer erstellt die Projektplanung? Wann erfolgt die Testplanung?",
+                "artifact": ""
+            },
+            "5": {
+                "question": "Nur die Testdurchführung befindet sich auf dem kritischen Projektpfad",
+                "help": "Wann wird mit der Testvorbereitung gestartet? Wann endet sie? Wann erfolgen Abschlussaktivitäten wie z.B, Archivierung?",
+                "artifact": ""
+            }
         },
-        "2": {
-          "question": "Frage 2 zur Teilnahme",
-          "help": "Hilfe zur Frage 2 zur Teilnahme",
-          "artifact": "Artefakt zur Frage 2 zur Teilnahme"
-        }
-      },
-      "planning": {
-        "1": {
-          "question": "Frage 1 zur Planung",
-          "help": "Hilfe zur Frage 1 zur Planung",
-          "artifact": "Artefakt zur Frage 1 zur Planung"
+        "planning": {
+            "1": {
+                "question": "Es existiert eine Schätzung der benötigten Ressourcen pro Testaktivität",
+                "help": "",
+                "artifact": ""
+            },
+            "2": {
+                "question": "Es gibt ein zugewiesenes Budget für jede Phase des Testprozesses.",
+                "help": "",
+                "artifact": ""
+            },
+            "3": {
+                "question": "Der Auftraggeber wird aktiv in die Schätzungen einbezogen.",
+                "help": "",
+                "artifact": ""
+            },
+            "4": {
+                "question": "Die Dauer der einzelnen Testaktivitäten (Testplanung, Testmanagement, Testdurchführung), die benötigten Ressourcen und die zu erwartenden Ergebnisse sind bekannt",
+                "help": "",
+                "artifact": ""
+            },
+            "5": {
+                "question": "Die Testplanung berücksichtigt Abhängigkeiten zwischen einzelnen Phasen oder Aktivitäten.",
+                "help": "Weren Abhängigkeiten zwischen Aktivitäten in der Testplanung berücksichtigt?",
+                "artifact": ""
+            }
         },
-        "2": {
-          "question": "Frage 2 zur Planung",
-          "help": "Hilfe zur Frage 2 zur Planung",
-          "artifact": "Artefakt zur Frage 2 zur Planung"
-        }
-      },
-      "professionalism": {
-        "1": {
-          "question": "Frage 1 zur Professionalität",
-          "help": "Hilfe zur Frage 1 zur Professionalität",
-          "artifact": "Artefakt zur Frage 1 zur Professionalität"
+        "professionalism": {
+            "1": {
+                "question": "Die Tester planen ihre Testaktivitäten im Austausch mit den Kollegen, führen diese eigenständig durch und geben proaktiv Feedback.",
+                "help": "Wie planen Sie Ihre Testaktivitäten? Beziehen Sie andere Kollegen aus dem Team mit ein? Was passiert, wenn Sie krank werden oder Urlaub planen?",
+                "artifact": ""
+            },
+            "2": {
+                "question": "Die Tester erhalten dedizierte Testschulungen oder haben bereits ausreichende Erfahrungen bei der strukturierten Testdurchführung.",
+                "help": "Gibt es Schulungen zu Testvorgaben der FI? Ist eine Schulungsteilnahme bei Bedarf möglich für die Tester?",
+                "artifact": ""
+            },
+            "3": {
+                "question": "Die Testmethode ist den Testern bekannt und wird eingesetzt.",
+                "help": "",
+                "artifact": ""
+            },
+            "4": {
+                "question": "Das Testteam hat Zugang zu benötigtem Fachwissen und technischem Wissen.",
+                "help": "",
+                "artifact": ""
+            },
+            "5": {
+                "question": "Die Tester sind zertifiziert nach ISTQB Foundation Level Tester.",
+                "help": "",
+                "artifact": ""
+            },
+            "6": {
+                "question": "Es gibt regelmäßige Leistungsbeurteilungen der Tester in Bezug auf Ihre Testfähigkeiten und IT-Fähigkeiten.",
+                "help": "",
+                "artifact": ""
+            }
         },
-        "2": {
-          "question": "Frage 2 zur Professionalität",
-          "help": "Hilfe zur Frage 2 zur Professionalität",
-          "artifact": "Artefakt zur Frage 2 zur Professionalität"
-        }
-      },
-      "register": {
-        "1": {
-          "question": "Frage 1 zum Register",
-          "help": "Hilfe zur Frage 1 zum Register",
-          "artifact": "Artefakt zur Frage 1 zum Register"
+        "reporting": {
+            "1": {
+                "question": "Es gibt regelmäßige schriftliche Berichte über den Testfortschritt (IST/PLAN) in Bezug auf Zeit, Budget, Testfällen, Fehler.",
+                "help": "Gibt es Testberichte zum Fortschritt gegliedert nach Zeit/Budget/Testfällen und Fehlern?",
+                "artifact": ""
+            },
+            "2": {
+                "question": "Die Berichte enthalten Ergebnisse und Risiken.",
+                "help": "Enthalten die Berichte Ergebnisse und Risiken?",
+                "artifact": ""
+            },
+            "3": {
+                "question": "Die Stakeholder sind zufrieden mit dem Inhalt, der Qualität und der Häufigkeit der Berichte.",
+                "help": "Sind Sie zufrieden mit dem Inhalt, der Qualität und der Häufigkeit der Berichte?",
+                "artifact": ""
+            },
+            "4": {
+                "question": "Produktrisiken und Projektrisiken sind in die Berichte einbezogen.",
+                "help": "N/A für Kunden.",
+                "artifact": ""
+            },
+            "5": {
+                "question": "Es gibt Trendanalysen über Fehler/Testfälle.",
+                "help": "N/A für Kunden.",
+                "artifact": ""
+            },
+            "6": {
+                "question": "Die Berichte enthalten Empfehlungen für Entscheidungen.",
+                "help": "N/A für Kunden.",
+                "artifact": ""
+            }
         },
-        "2": {
-          "question": "Frage 2 zum Register",
-          "help": "Hilfe zur Frage 2 zum Register",
-          "artifact": "Artefakt zur Frage 2 zum Register"
-        }
-      },
-      "reporting": {
-        "1": {
-          "question": "Frage 1 zum Reporting",
-          "help": "Hilfe zur Frage 1 zum Reporting",
-          "artifact": "Artefakt zur Frage 1 zum Reporting"
+        "testdesign": {
+            "1": {
+                "question": "Testfälle sind personenunabhängig wiederholbar (ähnlicher Wissensstand der Tester vorausgesetzt).",
+                "help": "",
+                "artifact": ""
+            },
+            "2": {
+                "question": "Es werden zunächst logische Testfälle beschrieben, die dann konkretisiert werden.",
+                "help": "",
+                "artifact": ""
+            },
+            "3": {
+                "question": "Jeder Testfall enthält die folgenden Informationen: Ausgangssituation, Beschreibung der Aktionen im Testfall, dem erwarteten Ergebnis.",
+                "help": "",
+                "artifact": ""
+            },
+            "4": {
+                "question": "Das zugehörige Testobjekt (=Teil der Testbasis, das getestet wird) ist im Testfall genannt.",
+                "help": "",
+                "artifact": ""
+            },
+            "5": {
+                "question": "Checklisten oder formale Designtechniken werden zur Testfallerstellung eingesetzt.",
+                "help": "",
+                "artifact": "Testdesignmethoden/Checklisten"
+            }
         },
-        "2": {
-          "question": "Frage 2 zum Reporting",
-          "help": "Hilfe zur Frage 2 zum Reporting",
-          "artifact": "Artefakt zur Frage 2 zum Reporting"
-        }
-      },
-      "testdesign": {
-        "1": {
-          "question": "Frage 1 zum Testdesign",
-          "help": "Hilfe zur Frage 1 zum Testdesign",
-          "artifact": "Artefakt zur Frage 1 zum Testdesign"
+        "testorganisation": {
+            "1": {
+                "question": "Es gibt eine Organisations- oder Projekteinheit, die für den Testprodukte und Hilfestellungen verantwortlich ist.",
+                "help": "Es gibt eine Organisations- oder Projekteinheit, die für den Testprodukte und Hilfestellungen verantwortlich ist?",
+                "artifact": "Aufgabenbeschreibung"
+            },
+            "2": {
+                "question": "Es gibt eine Übersicht der Produkte und Dienstleistungen, die den Testern bekannt ist.",
+                "help": "Existiert eine Übersicht der Produkte und Dienstleistungen (z.B. Templates) der Abteilung?",
+                "artifact": "Aufgabenbeschreibung"
+            },
+            "3": {
+                "question": "Es gibt klar definierte Verantwortlichkeiten und eine Rollenübersicht (Tester, Testdesigner, Entwickler, Releasemanager, Umgebungsmanager, Projektleiter, Testmanager, Defectmanager; inkl. Namen).",
+                "help": "Gibt es klar definierte Verantwortlichkeiten? Kennen Sie Ihre Rolle und die Aufgaben? Fehlt der TM?",
+                "artifact": "Rollendefinition/Org Chart"
+            }
         },
-        "2": {
-          "question": "Frage 2 zum Testdesign",
-          "help": "Hilfe zur Frage 2 zum Testdesign",
-          "artifact": "Artefakt zur Frage 2 zum Testdesign"
-        }
-      },
-      "testorganisation": {
-        "1": {
-          "question": "Frage 1 zur Testorganisation",
-          "help": "Hilfe zur Frage 1 zur Testorganisation",
-          "artifact": "Artefakt zur Frage 1 zur Testorganisation"
+        "testprocessmanagement": {
+            "1": {
+                "question": "Es gibt einen Testplan, der zeitlich festlegt wer was wann macht. Dieser umfasst alle Phasen des Testprozesses.",
+                "help": "Gibt es einen zeitlichen Plan, wann welche Teststufe durchlaufen wird? Sind dort Ressourcen für die jeweiligen Aufgaben eingeteilt? Sind Abwesenheiten berücksichtigt?",
+                "artifact": ""
+            },
+            "2": {
+                "question": "Der Testplan beinhaltet den Testauftrag, den Zeitraum, die zeitliche Ressourcenplanung, die Rollen und Verantwortlichkeiten.",
+                "help": "Sind Ihnen die Testzeiträume bekannt?",
+                "artifact": ""
+            },
+            "3": {
+                "question": "Die Erwartungen des Auftraggebers zu Umfang, Kosten und Qualität des Testens sind klar.",
+                "help": "",
+                "artifact": ""
+            },
+            "4": {
+                "question": "Ein Bericht gibt den Fortschritt des Testplans und geeignete Maßnahmen wieder.",
+                "help": "",
+                "artifact": ""
+            },
+            "5": {
+                "question": "Der Testplan ist mit den Stakeholdern (+ Auftraggeber) abgestimmt.",
+                "help": "",
+                "artifact": ""
+            }
         },
-        "2": {
-          "question": "Frage 2 zur Testorganisation",
-          "help": "Hilfe zur Frage 2 zur Testorganisation",
-          "artifact": "Artefakt zur Frage 2 zur Testorganisation"
-        }
-      },
-      "testprocessmanagement": {
-        "1": {
-          "question": "Frage 1 zum Testprozessmanagement",
-          "help": "Hilfe zur Frage 1 zum Testprozessmanagement",
-          "artifact": "Artefakt zur Frage 1 zum Testprozessmanagement"
+        "teststrategy": {
+            "1": {
+                "question": "Produktrisiken, die den go live beinträchtigen könnten sind analysiert.",
+                "help": "Gibt es spezielle Testfälle für den go live? Zum Beispiel zur Überprüfung der wichtigsten Funktionalitäten?",
+                "artifact": "Produktrisikoanalyse"
+            },
+            "2": {
+                "question": "Produktrisiken sind in die Priorisierung der Testfälle einbezogen.",
+                "help": "Gibt es eine Priorisierung der Testfälle? Wie wurde diese vorgenommen?",
+                "artifact": "Teststrategie (enthalten in Testkonzept)"
+            },
+            "3": {
+                "question": "Der finale Testaufwand/Ressourcen sind nach einer Risikoanalyse bestimmt worden.",
+                "help": "Ist der Zusammenhang zwischen Risiko und Aufwand betrachtet worden?",
+                "artifact": "Teststrategie (enthalten in Testkonzept)"
+            },
+            "4": {
+                "question": "Besonders risikobehaftete Softwarekomponenten oder Prozesse werden zuerst getestet (zeitlich).",
+                "help": "Werden risikoreiche Softwarekomponenten zuerst getestet? Gibt es eine Übersicht dieser?",
+                "artifact": "Teststrategie (enthalten in Testkonzept)"
+            },
+            "5": {
+                "question": "Die Risiken werden bei verschiedenen Teststufen, Testarten und der Testabdeckung und Testintensität berücksichtigt.",
+                "help": "Erfolgt ein Test in verschiedenen Teststufen, die sich nach Ziel und Intensität unterscheiden? (Entwicklertests, Systemtest, Abnahmetests)",
+                "artifact": "Teststrategie (enthalten in Testkonzept)"
+            },
+            "6": {
+                "question": "Fehlernachtests und Regressiontests werden durchgeführt.",
+                "help": "Gibt es eine Empfehlung vom Entwickler wie viel getestet werden muss nach der Fehlerbehebung?",
+                "artifact": "Stakeholdermatrix"
+            }
         },
-        "2": {
-          "question": "Frage 2 zum Testprozessmanagement",
-          "help": "Hilfe zur Frage 2 zum Testprozessmanagement",
-          "artifact": "Artefakt zur Frage 2 zum Testprozessmanagement"
-        }
-      },
-      "teststrategy": {
-        "1": {
-          "question": "Frage 1 zur Teststrategie",
-          "help": "Hilfe zur Frage 1 zur Teststrategie",
-          "artifact": "Artefakt zur Frage 1 zur Teststrategie"
+        "testwaremanagement": {
+            "1": {
+                "question": "Es gibt ein für das Testteam zugängliches Versionsmanagement für die Testobjekte/Anforderungen (Versionsnummer und Name).",
+                "help": "Ist sofort klar, welche Fehler zu welcher Anforderungsversion gehören?",
+                "artifact": ""
+            },
+            "2": {
+                "question": "Es gibt ein beschriebenes Verfahren, mit dem Testware, Testbasis und Testobjekte verwaltet werden. Dieses ist dem Team bekannt.",
+                "help": "",
+                "artifact": ""
+            },
+            "3": {
+                "question": "Die Testfälle beziehen sich jeweils auf eine Version/Dokument der Testbasis.",
+                "help": "",
+                "artifact": ""
+            },
+            "4": {
+                "question": "Testfälle und Anforderungen sind miteinander verknüpft.",
+                "help": "Ist der Weg von Anforderung zu Testfall zu Fehler nachvollziehbar?",
+                "artifact": "Abdeckungsmatrix"
+            }
         },
-        "2": {
-          "question": "Frage 2 zur Teststrategie",
-          "help": "Hilfe zur Frage 2 zur Teststrategie",
-          "artifact": "Artefakt zur Frage 2 zur Teststrategie"
+        "tools": {
+            "1": {
+                "question": "Testwerkzeuge, die für die Testaktivitäten benötigt werden, sind zugänglich für das Testteam (z.B. Planungswerkzeuge, Stubs, Steuerungswerkzeuge, Testdurchführungswerkzeuge).",
+                "help": "Welche Testwerkzeuge werden genutzt? Sind diese zugänglich für das gesamte Team?",
+                "artifact": "Toolauswahl"
+            },
+            "2": {
+                "question": "Das Testteam kennt die eingesetzten Werkzeuge.",
+                "help": "N/A Ergibt sich aus Antworten der ersten Frage.",
+                "artifact": ""
+            },
+            "3": {
+                "question": "Die beteiligten Stakeholder des Werkzeuges (Einkauf, Projekt, Testteam) sind überzeugt vom Nutzen des Werkzeuges.",
+                "help": "",
+                "artifact": ""
+            }
         }
-      },
-      "testwaremanagement": {
-        "1": {
-          "question": "Frage 1 zum Testwaremanagement",
-          "help": "Hilfe zur Frage 1 zum Testwaremanagement",
-          "artifact": "Artefakt zur Frage 1 zum Testwaremanagement"
-        },
-        "2": {
-          "question": "Frage 2 zum Testwaremanagement",
-          "help": "Hilfe zur Frage 2 zum Testwaremanagement",
-          "artifact": "Artefakt zur Frage 2 zum Testwaremanagement"
-        }
-      },
-      "tools": {
-        "1": {
-          "question": "Frage 1 zu Tools",
-          "help": "Hilfe zur Frage 1 zu Tools",
-          "artifact": "Artefakt zur Frage 1 zu Tools"
-        },
-        "2": {
-          "question": "Frage 2 zu Tools",
-          "help": "Hilfe zur Frage 2 zu Tools",
-          "artifact": "Artefakt zur Frage 2 zu Tools"
-        }
-      }
     }
-  }
-  
+}
