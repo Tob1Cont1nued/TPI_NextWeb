@@ -21,9 +21,9 @@
       </thead>
       <tbody>
         <tr *ngFor="let question of questions; let i = index">
-          <td>{{ questions.communication.i.question | translate }}</td>
-          <td>{{ questions.communication.i.help | translate }}</td>
-          <td>{{ questions.communication.i.artifact | translate }}</td>
+          <td>{{ question.question | translate }}</td>
+          <td>{{ question.help | translate }}</td>
+          <td>{{ question.artifact | translate }}</td>
           
           <td>
             <!-- Dropdown for the rating -->
