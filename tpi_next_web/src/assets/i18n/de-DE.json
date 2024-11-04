@@ -4,118 +4,143 @@
             "1": {
                 "question": "Die Teammitglieder werden über Entscheidungen im Projekt informiert",
                 "help": "Wie erhalten Sie Informationen zu Entscheidungen im Projekt?",
-                "artifact": "Kommunikationsplan (Was wird wann von wem kommuniziert und wer bekommt diese Info?)"
+                "artifact": "Kommunikationsplan (Was wird wann von wem kommuniziert und wer bekommt diese Info?)",
+                "weight": "100"
             },
             "2": {
                 "question": "Alle Teammitglieder kennen den Status und die Phase in der sich das Projekt befindet",
                 "help": "In welcher Projektphase befindet sich das Projekt aktuell? Wie ist der Status als Farbe gekennzeichnet?",
-                "artifact": ""
+                "artifact": "",
+                "weight": "100"
             },
             "3": {
                 "question": "Entscheidungen, Handlungen und Ergebnisse des Testteams können zurückverfolgt werden",
                 "help": "Wie werden Entscheidungen vom Testteam festgehalten? Wie kann ein neues Projektmitglied über bisherige Entscheidungen informiert werden?",
-                "artifact": ""
+                "artifact": "",
+                "weight": "100"
             },
             "4": {
                 "question": "Es gibt regelmäßigen Austausch zwischen Testteam und Stakeholdern über: Projekt und Testfortschritt, Qualität des Produktes und Risiken",
                 "help": "Gibt es ein Statusmeeting über den Testfortschritt und Fehler? Gibt es einen Statusbericht?",
-                "artifact": ""
+                "artifact": "",
+                "weight": "100"
             },
             "5": {
                 "question": "Das Testteam gibt vorausschauend Hinweise auf Verzögerungen/Probleme im Test an die Stakeholder",
                 "help": "Ist im Status eine Risikoabfrage vorhanden? Wie werden Probleme im Test adressiert? Gibt es Möglichkeiten der Handlung bei Problemen, oder müssen diese akzeptiert werden?",
-                "artifact": ""
+                "artifact": "",
+                "weight": "100"
             },
             "6": {
                 "question": "Das Testteam fragt aktiv nach für den Test relevanten Informationen bei den Stakeholdern nach",
                 "help": "Fragen Sie regelmäßig nach veränderten/aktualisierten Anforderungen oder neuen Entwicklungen?",
-                "artifact": ""
-            }
+                "artifact": "",
+                "weight": "100"
+            },
+            "max": "600"
         },
         "competence": {
             "1": {
                 "question": "Der Anforderungsmanager/Fachbereich zuständig für die Anforderungen ist bekannt",
                 "help": "Wissen Sie wer für welche Anforderung fachlich zuständig ist?",
-                "artifact": "Testfälle, Abnahmekriterien, Akzeptanzkriterien"
+                "artifact": "Testfälle, Abnahmekriterien, Akzeptanzkriterien",
+                "weight": "50"
             },
             "2": {
                 "question": "Die Tester kennen den Auftraggeber",
                 "help": "Wer ist Ihr Auftraggeber?",
-                "artifact": ""
+                "artifact": "",
+                "weight": "100"
             },
             "3": {
                 "question": "Der Auftraggeber hat das Budget bewilligt und dieses kann mit ihm verhandelt werden",
                 "help": "Kann die Dauer des Tests mit dem Auftraggeber verhandelt werden?",
-                "artifact": ""
+                "artifact": "",
+                "weight": "50"
             },
             "4": {
                 "question": "Die Testressourcen werden von den Stakeholdern zur Verfügung gestellt.",
                 "help": "Werden Tester aus den Fachbereichen nach Anfrage zur Verfügung gestellt?",
-                "artifact": "Stakeholdermatrix"
+                "artifact": "Stakeholdermatrix",
+                "weight": "100"
             },
             "5": {
                 "question": "Der Auftraggeber hat eine dokumentierte Produktrisikoanalyse erstellt",
                 "help": "Gibt es eine Risikoanalyse für die Software?",
-                "artifact": "Stakeholdermatrix"
+                "artifact": "Stakeholdermatrix",
+                "weight": "100"
             },
             "6": {
                 "question": "Fachabteilungen, die mit dem Produkt arbeiten sind bekannt",
                 "help": "Welche Abteilungen arbeiten alles mit der Software?",
-                "artifact": "Stakeholdermatrix"
+                "artifact": "Stakeholdermatrix",
+                "weight": "100"
             },
             "7": {
                 "question": "Die Releaseprozesse und Ansprechpartner sind bekannt",
                 "help": "Wer ist Hauptansprechpartner im Releasemanagement? Gibt es Freigabeszenarien für das Release?",
-                "artifact": "Stakeholdermatrix"
+                "artifact": "Stakeholdermatrix",
+                "weight": "100"
             },
             "8": {
                 "question": "Die Entwickler sind bekannt",
                 "help": "Gibt es Softwareentwickler? Wenn ja, wer ist das? intern / extern?",
-                "artifact": "Stakeholdermatrix"
+                "artifact": "Stakeholdermatrix",
+                "weight": "100"
             },
             "9": {
                 "question": "Die Softwarearchitekten sind bekannt",
                 "help": "Gibt es Softwarearchitekten? Wenn ja, wer ist das?",
-                "artifact": "Stakeholdermatrix"
-            }
+                "artifact": "Stakeholdermatrix",
+                "weight": "100"
+            },
+            "max": "800"
         },
         "defectmanagement": {
             "1": {
                 "question": "Es gibt ein Fehlermanagement inkl. Fehlerlebenszyklus, das dem Testteam/Entwicklerteam bekannt ist",
                 "help": "Wie sind die Phasen des Fehlerlebenszyklus? Wer entscheidet, ob ein Fehler geschlossen wird? Wie sieht man, dass ein Fehler im System behoben ist?",
-                "artifact": "Fehlerprozess"
+                "artifact": "Fehlerprozess",
+                "weight": "100"
             },
             "2": {
                 "question": "Regelmäßige Fehlerbesprechungen unterstützen das Fehlermanagement",
                 "help": "Gibt es regelmäßige Termine, um über bestimmte Fehler oder Fehleranfälligkeiten einer Komponente zu sprechen?",
-                "artifact": ""
+                "artifact": "",
+                "weight": "100"
             },
             "3": {
                 "question": "Verantwortliche Personen im Fehlerprozess sind definiert (Tester/Entwickler/Umgebungsmanager/Testmanager…)",
                 "help": "Wer ist alles im Fehlerprozess involviert und was sind seine Aufgaben?",
-                "artifact": ""
+                "artifact": "",
+                "weight": "100"
             },
             "4": {
                 "question": "Genutzte Fehlermanagementwerkzeuge sind für verantwortliche Personen nutzbar.",
                 "help": "Sind die Fehler für alle einsehbar? Sind die Schwere-Definitionen transparent und bekannt? Gibt es spezielle Debugging Tools, die ebenfalls nutzbar sind?",
-                "artifact": ""
+                "artifact": "",
+                "weight": "100"
             },
             "5": {
                 "question": "Der Umgang mit Fehlernachtests (komplett/partiell) ist definiert.",
                 "help": "Was wird nach der Behebung eines Fehlers getestet? Gibt es hier Richtlinien, wie viel erneut getestet wird (nur Fehler, gesamte fehlerhafte Komponente, Komponente mit anliegenden Komponenten)?",
-                "artifact": ""
+                "artifact": "",
+                "weight": "100"
             },
             "6": {
                 "question": "Die Mindestattribute jedes Fehlers sind: Ersteller/Tester, ID, Datum, Schwere, Beschreibung (erwartetes vs. tatsächliches Ergebnis), Titel, Status",
                 "help": "Welche Attribute werden in einem Fehler ausgefüllt?",
-                "artifact": ""
-            }
+                "artifact": "",
+                "weight": "100"
+            },
+            "max": "600"
         },
         "engagement": {
             "1": {
                 "question": "Der Anforderungsmanager/Fachbereich zuständig für die Anforderungen ist bekannt",
                 "help": "Wissen Sie, wer für welche Anforderung fachlich zuständig ist?",
-                "artifact": "Testfälle, Abnahmekriterien, Akzeptanzkriterien"
+                "artifact": "Testfälle, Abnahmekriterien, Akzeptanzkriterien",
+                "weight": ""
             },
             "2": {
                 "question": "Die Tester kennen den Auftraggeber",
