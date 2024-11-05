@@ -17,25 +17,23 @@
                 </tr>
             </thead>
             <tbody>
-                <tr *ngFor="let question of questions; let i = index">
-                    <td>{{ question.question }}</td>
-                    <td>{{ question.help }}</td>
-                    <td>{{ question.artifact }}</td>
+                <ng-container *ngFor="let question of questions; let i = index">
+                  <tr *ngIf="question.question !== 'max'">
+                    <td>{{ question.question | translate }}</td>
+                    <td>{{ question.help | translate }}</td>
+                    <td>{{ question.artifact | translate }}</td>
+                                        
                     <td>
-                        <!-- Dropdown for the rating -->
-                        <select formControlName="rating{{ i }}" (change)="calculateScore($event.target,  question)">
-                            <option *ngFor="let option of ratingOptions" [value]="option.value">
-                                {{ option.label }}
-                            </option>
-                        </select>
+                      <!-- Dropdown for the rating -->
+                      <select formControlName="rating{{ i }}">
+                        <option *ngFor="let option of ratingOptions" [value]="option.value">
+                          {{ option.label | translate }}
+                        </option>
+                      </select>
                     </td>
-                    <td>{{ question.yourValue }}</td>
-                    <td>{{ question.weight }}</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </tbody>
+                  </tr>
+                </ng-container>
+              </tbody>
         </table>
         <button type="submit">Speichern</button>
     </form>
