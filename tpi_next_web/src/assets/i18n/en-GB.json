@@ -1,545 +1,550 @@
 {
-  "questions": {
-      "communication": {
-          "1": {
-              "question": "Team members are informed about decisions in the project",
-              "help": "How do you receive information about decisions in the project?",
-              "artifact": "Communication plan (What is communicated when, by whom, and who receives this information?)"
-          },
-          "2": {
-              "question": "All team members know the status and phase of the project",
-              "help": "In which project phase is the project currently? How is the status indicated by color?",
-              "artifact": ""
-          },
-          "3": {
-              "question": "Decisions, actions, and results of the test team can be traced",
-              "help": "How are decisions recorded by the test team? How can a new project member be informed about previous decisions?",
-              "artifact": ""
-          },
-          "4": {
-              "question": "There is regular exchange between the test team and stakeholders about: project and test progress, product quality, and risks",
-              "help": "Is there a status meeting about test progress and defects? Is there a status report?",
-              "artifact": ""
-          },
-          "5": {
-              "question": "The test team proactively provides information about delays/problems in testing to stakeholders",
-              "help": "Is there a risk query in the status? How are problems in testing addressed? Are there options for action in case of problems, or do they have to be accepted?",
-              "artifact": ""
-          },
-          "6": {
-              "question": "The test team actively asks stakeholders for information relevant to testing",
-              "help": "Do you regularly ask about changed/updated requirements or new developments?",
-              "artifact": ""
-          }
-      },
-      "competence": {
-          "1": {
-              "question": "The requirements manager/department responsible for the requirements is known",
-              "help": "Do you know who is responsible for which requirement?",
-              "artifact": "Test cases, acceptance criteria"
-          },
-          "2": {
-              "question": "The testers know the client",
-              "help": "Who is your client?",
-              "artifact": ""
-          },
-          "3": {
-              "question": "The client has approved the budget and it can be negotiated with them",
-              "help": "Can the duration of the test be negotiated with the client?",
-              "artifact": ""
-          },
-          "4": {
-              "question": "Test resources are provided by the stakeholders",
-              "help": "Are testers from the departments provided upon request?",
-              "artifact": "Stakeholder matrix"
-          },
-          "5": {
-              "question": "The client has created a documented product risk analysis",
-              "help": "Is there a risk analysis for the software?",
-              "artifact": "Stakeholder matrix"
-          },
-          "6": {
-              "question": "Departments that work with the product are known",
-              "help": "Which departments work with the software?",
-              "artifact": "Stakeholder matrix"
-          },
-          "7": {
-              "question": "The release processes and contacts are known",
-              "help": "Who is the main contact in release management? Are there release scenarios for the release?",
-              "artifact": "Stakeholder matrix"
-          },
-          "8": {
-              "question": "The developers are known",
-              "help": "Are there software developers? If so, who are they? internal / external?",
-              "artifact": "Stakeholder matrix"
-          },
-          "9": {
-              "question": "The software architects are known",
-              "help": "Are there software architects? If so, who are they?",
-              "artifact": "Stakeholder matrix"
-          }
-      },
-      "defectmanagement": {
-          "1": {
-              "question": "There is defect management including defect lifecycle, which is known to the test team/development team",
-              "help": "What are the phases of the defect lifecycle? Who decides if a defect is closed? How can you see that a defect is fixed in the system?",
-              "artifact": "Defect process"
-          },
-          "2": {
-              "question": "Regular defect meetings support defect management",
-              "help": "Are there regular meetings to discuss specific defects or defect-prone components?",
-              "artifact": ""
-          },
-          "3": {
-              "question": "Responsible persons in the defect process are defined (tester/developer/environment manager/test manager…)",
-              "help": "Who is involved in the defect process and what are their tasks?",
-              "artifact": ""
-          },
-          "4": {
-              "question": "Used defect management tools are usable by responsible persons",
-              "help": "Are the defects visible to everyone? Are the severity definitions transparent and known? Are there special debugging tools that are also usable?",
-              "artifact": ""
-          },
-          "5": {
-              "question": "The handling of defect retests (complete/partial) is defined",
-              "help": "What is tested after a defect is fixed? Are there guidelines on how much is retested (only defect, entire defective component, component with adjacent components)?",
-              "artifact": ""
-          },
-          "6": {
-              "question": "The minimum attributes of each defect are: creator/tester, ID, date, severity, description (expected vs. actual result), title, status",
-              "help": "What attributes are filled in a defect?",
-              "artifact": ""
-          }
-      },
-      "engagement": {
-        "1": {
-            "question": "The requirements manager/department responsible for the requirements is known",
-            "help": "Do you know who is responsible for which requirement?",
-            "artifact": "Test cases, acceptance criteria"
-        },
-        "2": {
-            "question": "The testers know the client",
-            "help": "Who is your client?",
-            "artifact": ""
-        },
-        "3": {
-            "question": "The client has approved the budget and it can be negotiated with them",
-            "help": "Can the duration of the test be negotiated with the client?",
-            "artifact": ""
-        },
-        "4": {
-            "question": "Test resources are provided by the stakeholders",
-            "help": "Are testers from the departments provided upon request?",
-            "artifact": "Stakeholder matrix"
-        },
-        "5": {
-            "question": "The client has created a documented product risk analysis",
-            "help": "Is there a risk analysis for the software?",
-            "artifact": "Stakeholder matrix"
-        },
-        "6": {
-            "question": "Departments that work with the product are known",
-            "help": "Which departments work with the software?",
-            "artifact": "Stakeholder matrix"
-        },
-        "7": {
-            "question": "The release processes and contacts are known",
-            "help": "Who is the main contact in release management? Are there release scenarios for the release?",
-            "artifact": "Stakeholder matrix"
-        },
-        "8": {
-            "question": "The developers are known",
-            "help": "Are there software developers? If so, who are they? internal / external?",
-            "artifact": "Stakeholder matrix"
-        },
-        "9": {
-            "question": "The software architects are known",
-            "help": "Are there software architects? If so, who are they?",
-            "artifact": "Stakeholder matrix"
-        }
-      },
-      "environment": {
-        "1": {
-            "question": "There are clearly defined requirements for the test environment",
-            "help": "How many users can use the environment simultaneously? What availabilities are there? What are the requirements of the testing department?",
-            "artifact": ""
-        },
-        "2": {
-            "question": "Tasks and responsibilities for the environment are defined and coordinated with the responsible parties (e.g., environment manager)",
-            "help": "Who is responsible for the environment? Who informs about downtimes and test times?",
-            "artifact": ""
-        },
-        "3": {
-            "question": "The environment is available without interruption during the defined test periods",
-            "help": "Is the environment available without restriction during the test?",
-            "artifact": "Environment calendar"
-        },
-        "4": {
-            "question": "Changes to the test environment are communicated to the test manager in a timely manner",
-            "help": "Is there change management for changes? How are TM and the team informed about changes? How much lead time is there for changes? Is there an option to veto?",
-            "artifact": ""
-        },
-        "5": {
-            "question": "The test manager can request a freeze of the environment together with the project manager",
-            "help": "Can a freeze of the environment be requested?",
-            "artifact": ""
-        },
-        "6": {
-            "question": "Test data is considered",
-            "help": "Is test data available on all environments for testing? Is it fully usable?",
-            "artifact": ""
-        }
-      },
-      "management": {
-        "1": {
-            "question": "The requirements manager/department responsible for the requirements is known",
-            "help": "Do you know who is responsible for which requirement?",
-            "artifact": "Test cases, acceptance criteria"
-        },
-        "2": {
-            "question": "The testers know the client",
-            "help": "Who is your client?",
-            "artifact": ""
-        },
-        "3": {
-            "question": "The client has approved the budget and it can be negotiated with them",
-            "help": "Can the duration of the test be negotiated with the client?",
-            "artifact": ""
-        },
-        "4": {
-            "question": "Test resources are provided by the stakeholders",
-            "help": "Are testers from the departments provided upon request?",
-            "artifact": "Stakeholder matrix"
-        },
-        "5": {
-            "question": "The client has created a documented product risk analysis",
-            "help": "Is there a risk analysis for the software?",
-            "artifact": "Stakeholder matrix"
-        },
-        "6": {
-            "question": "Departments that work with the product are known",
-            "help": "Which departments work with the software?",
-            "artifact": "Stakeholder matrix"
-        },
-        "7": {
-            "question": "The release processes and contacts are known",
-            "help": "Who is the main contact in release management? Are there release scenarios for the release?",
-            "artifact": "Stakeholder matrix"
-        },
-        "8": {
-            "question": "The developers are known",
-            "help": "Are there software developers? If so, who are they? internal / external?",
-            "artifact": "Stakeholder matrix"
-        },
-        "9": {
-            "question": "The software architects are known",
-            "help": "Are there software architects? If so, who are they?",
-            "artifact": "Stakeholder matrix"
-        }
-      },
-      "methodicalApproach": {
-        "1": {
-            "question": "There are various defined test levels/test stages that are followed in the project (unit tests, component tests, integration tests, regression tests...)",
-            "help": "",
-            "artifact": "Glossary, acceptance criteria"
-        },
-        "2": {
-            "question": "The goals of the test levels/test stages are documented and fit the test strategy",
-            "help": "",
-            "artifact": "Test concept"
-        },
-        "3": {
-            "question": "The individual test levels/test stages are aligned with the project approach/development and are documented",
-            "help": "Are the environments suitable for the respective test?",
-            "artifact": ""
-        },
-        "4": {
-            "question": "The project and test team support the chosen test methods",
-            "help": "",
-            "artifact": "Sign-offs as quality gates"
-        }
-      },
-      "metrics": {
-        "1": {
-            "question": "Metrics are used to evaluate and monitor the test project",
-            "help": "Are there metrics that evaluate the test object?",
-            "artifact": ""
-        },
-        "2": {
-            "question": "The required data is determined synchronously and all metrics are stored centrally",
-            "help": "Is the underlying data for the metrics determined synchronously and stored centrally?",
-            "artifact": ""
-        },
-        "3": {
-            "question": "There are checks to validate the used data (samples)",
-            "help": "Are the used metrics checked by samples to see if the data is valid or if filters are set correctly?",
-            "artifact": ""
-        },
-        "4": {
-            "question": "At least 7 of the following metrics are used: test coverage ratio, number of test cases planned/already created, test progress (actual/plan), test execution ratio, defect severity, number of production defects, consumed budget share, test phases/consumed hours, idle rate, test end criteria",
-            "help": "Which metrics are used?",
-            "artifact": ""
-        }
-      },
-      "participation": {
-        "1": {
-            "question": "The scope, test assignment, and approach are agreed with the client",
-            "help": "Does the client know the estimated duration of the tests? Does he know the contents and has he agreed to them?",
-            "artifact": ""
-        },
-        "2": {
-            "question": "A person from the test team is involved in project planning so that dependencies between the test process and other processes (e.g., requirements management) can be considered",
-            "help": "Is someone from the test team involved in the project from the beginning? Does he/she know when requirements are defined and when development objects are ready for testing?",
-            "artifact": ""
-        },
-        "3": {
-            "question": "A tester is involved in the analysis, evaluation, and management of project risks",
-            "help": "",
-            "artifact": ""
-        },
-        "4": {
-            "question": "Test planning is done simultaneously with project planning",
-            "help": "Who creates the project plan? When is the test plan created?",
-            "artifact": ""
-        },
-        "5": {
-            "question": "Only test execution is on the critical project path",
-            "help": "When does test preparation start? When does it end? When are final activities such as archiving carried out?",
-            "artifact": ""
-        }
-      },
-      "planning": {
-        "1": {
-            "question": "There is an estimate of the resources needed per test activity",
-            "help": "",
-            "artifact": ""
-        },
-        "2": {
-            "question": "There is an allocated budget for each phase of the test process",
-            "help": "",
-            "artifact": ""
-        },
-        "3": {
-            "question": "The client is actively involved in the estimates",
-            "help": "",
-            "artifact": ""
-        },
-        "4": {
-            "question": "The duration of the individual test activities (test planning, test management, test execution), the required resources, and the expected results are known",
-            "help": "",
-            "artifact": ""
-        },
-        "5": {
-            "question": "Test planning takes into account dependencies between individual phases or activities",
-            "help": "Are dependencies between activities considered in test planning?",
-            "artifact": ""
-        }
-      },
-      "professionalism": {
-        "1": {
-            "question": "The testers plan their test activities in consultation with colleagues, carry them out independently, and provide proactive feedback",
-            "help": "How do you plan your test activities? Do you involve other colleagues from the team? What happens if you get sick or plan a vacation?",
-            "artifact": ""
-        },
-        "2": {
-            "question": "The testers receive dedicated test training or already have sufficient experience in structured test execution",
-            "help": "Are there training sessions on FI test specifications? Is it possible for testers to attend training if needed?",
-            "artifact": ""
-        },
-        "3": {
-            "question": "The test method is known to the testers and is used",
-            "help": "",
-            "artifact": ""
-        },
-        "4": {
-            "question": "The test team has access to the necessary expertise and technical knowledge",
-            "help": "",
-            "artifact": ""
-        },
-        "5": {
-            "question": "The testers are certified according to ISTQB Foundation Level Tester",
-            "help": "",
-            "artifact": ""
-        },
-        "6": {
-            "question": "There are regular performance evaluations of the testers regarding their testing skills and IT skills",
-            "help": "",
-            "artifact": ""
-        }
-      },
-      "reporting": {
-        "1": {
-            "question": "There are regular written reports on test progress (actual/plan) regarding time, budget, test cases, defects",
-            "help": "Are there test reports on progress broken down by time/budget/test cases and defects?",
-            "artifact": ""
-        },
-        "2": {
-            "question": "The reports contain results and risks",
-            "help": "Do the reports contain results and risks?",
-            "artifact": ""
-        },
-        "3": {
-            "question": "The stakeholders are satisfied with the content, quality, and frequency of the reports",
-            "help": "Are you satisfied with the content, quality, and frequency of the reports?",
-            "artifact": ""
-        },
-        "4": {
-            "question": "Product risks and project risks are included in the reports",
-            "help": "N/A for customers",
-            "artifact": ""
-        },
-        "5": {
-            "question": "There are trend analyses on defects/test cases",
-            "help": "N/A for customers",
-            "artifact": ""
-        },
-        "6": {
-            "question": "The reports contain recommendations for decisions",
-            "help": "N/A for customers",
-            "artifact": ""
-        }
-      },
-      "testdesign": {
-        "1": {
-            "question": "Test cases are repeatable regardless of the person (assuming similar knowledge level of the testers)",
-            "help": "",
-            "artifact": ""
-        },
-        "2": {
-            "question": "Logical test cases are first described and then concretized",
-            "help": "",
-            "artifact": ""
-        },
-        "3": {
-            "question": "Each test case contains the following information: initial situation, description of actions in the test case, expected result",
-            "help": "",
-            "artifact": ""
-        },
-        "4": {
-            "question": "The associated test object (part of the test basis being tested) is mentioned in the test case",
-            "help": "",
-            "artifact": ""
-        },
-        "5": {
-            "question": "Checklists or formal design techniques are used to create test cases",
-            "help": "",
-            "artifact": "Test design methods/checklists"
-        }
-      },
-      "testorganisation": {
-        "1": {
-            "question": "There is an organizational or project unit responsible for test products and support",
-            "help": "Is there an organizational or project unit responsible for test products and support?",
-            "artifact": "Job description"
-        },
-        "2": {
-            "question": "There is an overview of the products and services known to the testers",
-            "help": "Is there an overview of the products and services (e.g., templates) of the department?",
-            "artifact": "Job description"
-        },
-        "3": {
-            "question": "There are clearly defined responsibilities and a role overview (tester, test designer, developer, release manager, environment manager, project manager, test manager, defect manager; including names)",
-            "help": "Are there clearly defined responsibilities? Do you know your role and tasks? Is the TM missing?",
-            "artifact": "Role definition/org chart"
-        }
-      },
-      "testprocessmanagement": {
-        "1": {
-            "question": "There is a test plan that specifies who does what and when. This includes all phases of the test process",
-            "help": "Is there a schedule for when each test stage will be run? Are resources allocated for the respective tasks? Are absences considered?",
-            "artifact": ""
-        },
-        "2": {
-            "question": "The test plan includes the test assignment, the period, the time resource planning, the roles, and responsibilities",
-            "help": "Are you aware of the test periods?",
-            "artifact": ""
-        },
-        "3": {
-            "question": "The client's expectations regarding the scope, cost, and quality of testing are clear",
-            "help": "",
-            "artifact": ""
-        },
-        "4": {
-            "question": "A report reflects the progress of the test plan and appropriate measures",
-            "help": "",
-            "artifact": ""
-        },
-        "5": {
-            "question": "The test plan is coordinated with the stakeholders (including the client)",
-            "help": "",
-            "artifact": ""
-        }
-      },
-      "teststrategy": {
-        "1": {
-            "question": "Product risks that could affect the go-live are analyzed",
-            "help": "Are there specific test cases for the go-live? For example, to check the most important functionalities?",
-            "artifact": "Product risk analysis"
-        },
-        "2": {
-            "question": "Product risks are included in the prioritization of test cases",
-            "help": "Is there a prioritization of test cases? How was this done?",
-            "artifact": "Test strategy (included in test concept)"
-        },
-        "3": {
-            "question": "The final test effort/resources are determined after a risk analysis",
-            "help": "Has the relationship between risk and effort been considered?",
-            "artifact": "Test strategy (included in test concept)"
-        },
-        "4": {
-            "question": "Particularly risky software components or processes are tested first (in terms of time)",
-            "help": "Are high-risk software components tested first? Is there an overview of these?",
-            "artifact": "Test strategy (included in test concept)"
-        },
-        "5": {
-            "question": "Risks are considered at various test stages, test types, and test coverage and intensity",
-            "help": "Is testing done at different test stages that differ in goal and intensity? (developer tests, system tests, acceptance tests)",
-            "artifact": "Test strategy (included in test concept)"
-        },
-        "6": {
-            "question": "Defect retests and regression tests are performed",
-            "help": "Is there a recommendation from the developer on how much needs to be tested after the defect is fixed?",
-            "artifact": "Stakeholder matrix"
-        }
-      },
-      "testwaremanagement": {
-        "1": {
-            "question": "There is version management for test objects/requirements accessible to the test team (version number and name)",
-            "help": "Is it immediately clear which defects belong to which requirement version?",
-            "artifact": ""
-        },
-        "2": {
-            "question": "There is a described procedure for managing testware, test basis, and test objects. This is known to the team",
-            "help": "",
-            "artifact": ""
-        },
-        "3": {
-            "question": "The test cases each refer to a version/document of the test basis",
-            "help": "",
-            "artifact": ""
-        },
-        "4": {
-            "question": "Test cases and requirements are linked",
-            "help": "Is the path from requirement to test case to defect traceable?",
-            "artifact": "Coverage matrix"
-        }
-      },
-      "tools": {
-        "1": {
-            "question": "Test tools needed for test activities are accessible to the test team (e.g., planning tools, stubs, control tools, test execution tools)",
-            "help": "Which test tools are used? Are they accessible to the entire team?",
-            "artifact": "Tool selection"
-        },
-        "2": {
-            "question": "The test team knows the tools used",
-            "help": "N/A Results from answers to the first question",
-            "artifact": ""
-        },
-        "3": {
-            "question": "The stakeholders involved with the tool (procurement, project, test team) are convinced of the tool's benefits",
-            "help": "",
-            "artifact": ""
+    "questions": {
+        "engagement": {
+            "1": {
+                "question": "The requirements manager/department responsible for the requirements is known",
+                "help": "Do you know who is responsible for which requirement?",
+                "artifact": "Test cases, acceptance criteria",
+                "weight": "50"
+            },
+            "2": {
+                "question": "The testers know the client",
+                "help": "Who is your client?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "3": {
+                "question": "The client has approved the budget and it can be negotiated with them",
+                "help": "Can the duration of the test be negotiated with the client?",
+                "artifact": "",
+                "weight": "50"
+            },
+            "4": {
+                "question": "The test resources are provided by the stakeholders.",
+                "help": "Are testers from the departments provided upon request?",
+                "artifact": "Stakeholder matrix",
+                "weight": "100"
+            },
+            "5": {
+                "question": "The client has created a documented product risk analysis",
+                "help": "Is there a risk analysis for the software?",
+                "artifact": "Stakeholder matrix",
+                "weight": "100"
+            },
+            "6": {
+                "question": "Departments that work with the product are known",
+                "help": "Which departments work with the software?",
+                "artifact": "Stakeholder matrix",
+                "weight": "100"
+            },
+            "7": {
+                "question": "The release processes and contacts are known",
+                "help": "Who is the main contact in release management? Are there release scenarios for the release?",
+                "artifact": "Stakeholder matrix",
+                "weight": "100"
+            },
+            "8": {
+                "question": "The developers are known",
+                "help": "Are there software developers? If so, who are they? internal / external?",
+                "artifact": "Stakeholder matrix",
+                "weight": "100"
+            },
+            "9": {
+                "question": "The software architects are known",
+                "help": "Are there software architects? If so, who are they?",
+                "artifact": "Stakeholder matrix",
+                "weight": "100"
+            },
+            "max": "800"
+        },
+        "participation": {
+            "1": {
+                "question": "The scope, test assignment and approach are agreed with the client",
+                "help": "Does the client know the estimated duration of the tests? Does he know the contents and has he agreed to them?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "2": {
+                "question": "A member of the test team is involved in project planning so that dependencies between the test process and other processes (e.g. requirements management) can be considered",
+                "help": "Is someone from the test team involved in the project from the beginning? Do they know when requirements are defined and when development objects are ready for testing?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "3": {
+                "question": "A tester is involved in the analysis, evaluation and management of project risks.",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "4": {
+                "question": "Test planning is carried out simultaneously with project planning",
+                "help": "Who creates the project plan? When does test planning take place?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "5": {
+                "question": "Only the test execution is on the critical project path",
+                "help": "When does test preparation start? When does it end? When do final activities such as archiving take place?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "max": "500"
+        },        
+        "teststrategy": {
+            "1": {
+                "question": "Product risks that could affect the go-live have been analysed.",
+                "help": "Are there specific test cases for the go-live? For example, to check the most important functionalities?",
+                "artifact": "Product risk analysis",
+                "weight": "100"
+            },
+            "2": {
+                "question": "Product risks are included in the prioritisation of test cases.",
+                "help": "Is there a prioritisation of test cases? How was this done?",
+                "artifact": "Test strategy (included in test concept)",
+                "weight": "100"
+            },
+            "3": {
+                "question": "The final test effort/resources have been determined after a risk analysis.",
+                "help": "Has the relationship between risk and effort been considered?",
+                "artifact": "Test strategy (included in test concept)",
+                "weight": "100"
+            },
+            "4": {
+                "question": "Particularly risky software components or processes are tested first (in terms of time).",
+                "help": "Are risky software components tested first? Is there an overview of these?",
+                "artifact": "Test strategy (included in test concept)",
+                "weight": "100"
+            },
+            "5": {
+                "question": "Risks are considered at different test levels, test types and test coverage and intensity.",
+                "help": "Is testing carried out at different test levels, which differ in terms of objective and intensity? (Developer tests, system tests, acceptance tests)",
+                "artifact": "Test strategy (included in test concept)",
+                "weight": "100"
+            },
+            "6": {
+                "question": "Defect retests and regression tests are carried out.",
+                "help": "Is there a recommendation from the developer on how much testing is required after defect correction?",
+                "artifact": "Stakeholder matrix",
+                "weight": "100"
+            },
+            "max": "600"
+        },
+        "testorganisation": {
+            "1": {
+                "question": "There is an organisational or project unit responsible for test products and support.",
+                "help": "Is there an organisational or project unit responsible for test products and support?",
+                "artifact": "Task description",
+                "weight": "100"
+            },
+            "2": {
+                "question": "There is an overview of products and services known to the testers.",
+                "help": "Is there an overview of the department's products and services (e.g. templates)?",
+                "artifact": "Task description",
+                "weight": "100"
+            },
+            "3": {
+                "question": "There are clearly defined responsibilities and a role overview (tester, test designer, developer, release manager, environment manager, project manager, test manager, defect manager; including names).",
+                "help": "Are there clearly defined responsibilities? Do you know your role and tasks? Is the test manager missing?",
+                "artifact": "Role definition/Org chart",
+                "weight": "100"
+            },
+            "max": "300"
+        },
+        "communication": {
+            "1": {
+                "question": "Team members are informed about decisions in the project",
+                "help": "How do you receive information about decisions in the project?",
+                "artifact": "Communication plan (What is communicated by whom and when, and who receives this information?)",
+                "weight": "100"
+            },
+            "2": {
+                "question": "All team members know the status and phase of the project",
+                "help": "In which project phase is the project currently? How is the status indicated by colour?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "3": {
+                "question": "Decisions, actions and results of the test team can be traced",
+                "help": "How are decisions recorded by the test team? How can a new project member be informed about previous decisions?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "4": {
+                "question": "There is regular exchange between the test team and stakeholders about: project and test progress, product quality and risks",
+                "help": "Is there a status meeting about test progress and defects? Is there a status report?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "5": {
+                "question": "The test team proactively informs stakeholders about delays/problems in testing",
+                "help": "Is there a risk query in the status? How are problems in testing addressed? Are there options for action in case of problems, or do they have to be accepted?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "6": {
+                "question": "The test team actively asks stakeholders for information relevant to the test",
+                "help": "Do you regularly ask for changed/updated requirements or new developments?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "max": "600"
+        },
+        "reporting": {
+            "1": {
+                "question": "There are regular written reports on test progress (actual/plan) regarding time, budget, test cases, defects.",
+                "help": "Are there test reports on progress broken down by time/budget/test cases and defects?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "2": {
+                "question": "The reports contain results and risks.",
+                "help": "Do the reports contain results and risks?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "3": {
+                "question": "Stakeholders are satisfied with the content, quality and frequency of the reports.",
+                "help": "Are you satisfied with the content, quality and frequency of the reports?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "4": {
+                "question": "Product risks and project risks are included in the reports.",
+                "help": "N/A for customers.",
+                "artifact": "",
+                "weight": "50"
+            },
+            "5": {
+                "question": "There are trend analyses on defects/test cases.",
+                "help": "N/A for customers.",
+                "artifact": "",
+                "weight": "50"
+            },
+            "6": {
+                "question": "The reports contain recommendations for decisions.",
+                "help": "N/A for customers.",
+                "artifact": "",
+                "weight": "100"
+            },
+            "max": "600"
+        },
+        "testprocessmanagement": {
+            "1": {
+                "question": "There is a test plan that specifies who does what and when. This covers all phases of the test process.",
+                "help": "Is there a schedule for when each test phase will be carried out? Are resources allocated for the respective tasks? Are absences considered?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "2": {
+                "question": "The test plan includes the test assignment, the timeframe, the resource planning, the roles and responsibilities.",
+                "help": "Are you aware of the test periods?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "3": {
+                "question": "The client's expectations regarding the scope, cost and quality of testing are clear.",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "4": {
+                "question": "A report reflects the progress of the test plan and appropriate measures.",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "5": {
+                "question": "The test plan is coordinated with the stakeholders (including the client).",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "max": "500"
+        },
+        "planning": {
+            "1": {
+                "question": "There is an estimate of the resources required per test activity",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "2": {
+                "question": "There is an allocated budget for each phase of the test process.",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "3": {
+                "question": "The client is actively involved in the estimates.",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "4": {
+                "question": "The duration of each test activity (test planning, test management, test execution), the required resources and the expected results are known",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "5": {
+                "question": "The test planning considers dependencies between individual phases or activities.",
+                "help": "Are dependencies between activities considered in the test planning?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "max": "500"
+        },
+        "metrics": {
+            "1": {
+                "question": "Metrics are used to evaluate and monitor the test project.",
+                "help": "Are there metrics that evaluate the test object?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "2": {
+                "question": "The required data is determined synchronously and all metrics are stored centrally.",
+                "help": "Is the underlying data for the metrics determined synchronously and stored centrally?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "3": {
+                "question": "There are checks to validate the data used (samples)",
+                "help": "Are the metrics used checked by sampling to ensure the data is valid and filters are set correctly?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "4": {
+                "question": "At least 7 of the following metrics are used: test coverage ratio, number of test cases planned/already created, test progress (actual/plan), test execution ratio, defect severity, number of production defects, budget consumption, test phases/hours consumed, idle rate, test exit criteria",
+                "help": "Which metrics are used?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "max": "400"
+        },
+        "defectmanagement": {
+            "1": {
+                "question": "There is a defect management process including defect lifecycle known to the test team/development team",
+                "help": "What are the phases of the defect lifecycle? Who decides if a defect is closed? How can you see that a defect is fixed in the system?",
+                "artifact": "Defect process",
+                "weight": "100"
+            },
+            "2": {
+                "question": "Regular defect meetings support defect management",
+                "help": "Are there regular meetings to discuss specific defects or the defect-proneness of a component?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "3": {
+                "question": "Responsible persons in the defect process are defined (tester/developer/environment manager/test manager...)",
+                "help": "Who is involved in the defect process and what are their tasks?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "4": {
+                "question": "The defect management tools used are accessible to responsible persons.",
+                "help": "Are the defects visible to everyone? Are the severity definitions transparent and known? Are there special debugging tools that are also usable?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "5": {
+                "question": "The handling of defect retests (complete/partial) is defined.",
+                "help": "What is tested after a defect is fixed? Are there guidelines on how much to retest (only the defect, the entire defective component, the component with adjacent components)?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "6": {
+                "question": "The minimum attributes of each defect are: creator/tester, ID, date, severity, description (expected vs. actual result), title, status",
+                "help": "Which attributes are filled in a defect?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "max": "600"
+        },
+        "testwaremanagement": {
+            "1": {
+                "question": "There is version management for test objects/requirements (version number and name) accessible to the test team.",
+                "help": "Is it immediately clear which defects belong to which requirement version?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "2": {
+                "question": "There is a documented procedure for managing testware, test basis and test objects. This is known to the team.",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "3": {
+                "question": "The test cases each refer to a version/document of the test basis.",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "4": {
+                "question": "Test cases and requirements are linked.",
+                "help": "Is the path from requirement to test case to defect traceable?",
+                "artifact": "Coverage matrix",
+                "weight": "50"
+            },
+            "max": "350"
+        },
+        "methodicalApproach": {
+            "1": {
+                "question": "There are various defined test levels/test stages that are followed in the project (unit tests, component tests, integration tests, regression tests...)",
+                "help": "",
+                "artifact": "Glossary, acceptance criteria",
+                "weight": "100"
+            },
+            "2": {
+                "question": "The objectives of the test levels/test stages are documented and fit the test strategy.",
+                "help": "",
+                "artifact": "Test concept",
+                "weight": "100"
+            },
+            "3": {
+                "question": "The individual test levels/test stages are aligned with the project approach/development and are documented.",
+                "help": "Are the environments suitable for the respective test?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "4": {
+                "question": "The project and test team support the chosen test methods.",
+                "help": "",
+                "artifact": "Sign-offs as quality gates",
+                "weight": "100"
+            },
+            "max": "400"
+        },
+        "professionalism": {
+            "1": {
+                "question": "The testers plan their test activities in consultation with colleagues, carry them out independently and provide proactive feedback.",
+                "help": "How do you plan your test activities? Do you involve other colleagues from the team? What happens if you fall ill or plan a holiday?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "2": {
+                "question": "The testers receive dedicated test training or already have sufficient experience in structured test execution.",
+                "help": "Are there training sessions on FI test specifications? Is it possible for testers to attend training sessions if needed?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "3": {
+                "question": "The test method is known to the testers and is used.",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "4": {
+                "question": "The test team has access to the necessary expertise and technical knowledge.",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "5": {
+                "question": "The testers are certified according to ISTQB Foundation Level Tester.",
+                "help": "",
+                "artifact": "",
+                "weight": "50"
+            },
+            "6": {
+                "question": "There are regular performance reviews of the testers regarding their testing skills and IT skills.",
+                "help": "",
+                "artifact": "",
+                "weight": "0"
+            },
+            "max": "450"
+        },
+        "testdesign": {
+            "1": {
+                "question": "Test cases are repeatable regardless of the person (assuming similar knowledge level of the testers).",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "2": {
+                "question": "Logical test cases are initially described and then concretised.",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "3": {
+                "question": "Each test case contains the following information: initial situation, description of actions in the test case, expected result.",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "4": {
+                "question": "The associated test object (part of the test basis being tested) is mentioned in the test case.",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "5": {
+                "question": "Checklists or formal design techniques are used to create test cases.",
+                "help": "",
+                "artifact": "Test design methods/checklists",
+                "weight": "100"
+            },
+            "max": "500"
+        },
+        "tools": {
+            "1": {
+                "question": "Test tools required for test activities are accessible to the test team (e.g. planning tools, stubs, control tools, test execution tools).",
+                "help": "Which test tools are used? Are they accessible to the entire team?",
+                "artifact": "Tool selection",
+                "weight": "100"
+            },
+            "2": {
+                "question": "The test team is familiar with the tools used.",
+                "help": "N/A Results from the answers to the first question.",
+                "artifact": "",
+                "weight": "100"
+            },
+            "3": {
+                "question": "The stakeholders involved with the tool (procurement, project, test team) are convinced of the tool's benefits.",
+                "help": "",
+                "artifact": "",
+                "weight": "0"
+            },
+            "max": "200"
+        },
+        "environment": {
+            "1": {
+                "question": "There are clearly defined requirements for the test environment.",
+                "help": "How many users can use the environment simultaneously? What availabilities are there? What are the requirements of the testing department?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "2": {
+                "question": "Tasks and responsibilities for the environment are defined and agreed with the responsible parties (e.g. environment manager).",
+                "help": "Who is responsible for the environment? Who informs about downtimes and test times?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "3": {
+                "question": "The environment is available without interruption during the defined test periods.",
+                "help": "Is the environment fully available during testing?",
+                "artifact": "Environment calendar",
+                "weight": "100"
+            },
+            "4": {
+                "question": "Changes to the test environment are communicated to the test manager in a timely manner.",
+                "help": "Is there change management for changes? How are the test manager and team informed about changes? How much lead time is there for changes? Is there an option to veto?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "5": {
+                "question": "The test manager can request a freeze of the environment together with the project manager.",
+                "help": "Can a freeze of the environment be requested?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "6": {
+                "question": "Test data is considered",
+                "help": "Is test data available on all environments for testing? Is it fully usable?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "max": "600"
         }
     }
-  }
 }
