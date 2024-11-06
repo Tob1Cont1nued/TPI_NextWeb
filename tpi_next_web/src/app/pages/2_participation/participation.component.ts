@@ -27,7 +27,7 @@ export class ParticipationComponent implements OnInit {
         controls[`rating${index}`] = new FormControl('');
       });
 
-      this.ratingForm = this.fb.group(controls);
+    this.ratingForm = this.fb.group(controls);
     });
   }
 

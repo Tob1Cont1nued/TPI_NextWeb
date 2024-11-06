@@ -17,6 +17,9 @@ interface Question {
   weight: number;
   yourValue: number;
   rating: Rating;
+  findings: string;
+  measures: string;
+  interviewPartner: string;
 }
 
 @Component({
@@ -24,15 +27,14 @@ interface Question {
   standalone: true,
   imports: [CommonModule, RouterModule, TranslateModule, ReactiveFormsModule],
   templateUrl: './engagement.component.html',
-  styleUrl: './engagement.component.css'
+  styleUrls: ['./engagement.component.css']
 })
 export class EngagementComponent implements OnInit {
-  // FormGroup to hold the rating values for each question
   ratingForm!: FormGroup;
   maxRating: number = 0;
-  questions: any[] = [];
+  questions: Question[] = [];
+  Rating = Rating;
 
-  // Options for the dropdown
   ratingOptions = [
     { label: 'trifft vollständig zu', value: Rating.FULL },
     { label: 'trifft zum Teil zu', value: Rating.PARTIAL },
@@ -41,41 +43,35 @@ export class EngagementComponent implements OnInit {
 
   constructor(private fb: FormBuilder, private translate: TranslateService) {}
 
-  /* ngOnInit(): void {
-     const controls = this.questions.reduce((acc, _, index) => {
-       acc[`rating${index}`] = new FormControl(Rating.NONE);
-       return acc;
-     }, {} as { [key: string]: FormControl });
-
-     this.ratingForm = this.fb.group(controls);
-
-     this.ratingForm.valueChanges.subscribe(() => {
-     this.calculateTotalScore();
-     });
-
-     this.calculateTotalScore();
-   }
-  */
-
-
+  // Initialisiert das Formular und die Fragen beim Laden der Komponente
   ngOnInit(): void {
-    // Explizite Typdeklaration, um TypeScript den Typ der FormControls zu definieren
     this.translate.get('questions.engagement').subscribe((data) => {
-      this.questions = Object.values(data);
       const controls: { [key: string]: FormControl } = {};
+      this.questions = Object.values(data);
 
       this.questions.forEach((question, index) => {
-        controls[`rating${index}`] = new FormControl('');
-        this.maxRating += question.rating;
+        // Initialisiert die FormControls für jede Frage
+        controls[`rating${index}`] = new FormControl(Rating.NONE);
+        controls[`findings${index}`] = new FormControl('');
+        controls[`measures${index}`] = new FormControl('');
+        controls[`interviewPartner${index}`] = new FormControl('');
+        this.maxRating += Number(question.weight); // Summiert die Gewichtungen
       });
 
       this.ratingForm = this.fb.group(controls);
+
+      // Abonniere valueChanges, um "Ihr Wert" zu berechnen, wenn das Dropdown geändert wird
+      this.questions.forEach((question, index) => {
+        this.ratingForm.get(`rating${index}`)?.valueChanges.subscribe(value => {
+          this.calculateScoreForQuestion(question, value);
+        });
+      });
     });
   }
 
-
-  calculateScore(newRating: any, question: Question): number {
-    question.rating = newRating.value;
+  // Berechnet den Wert für eine einzelne Frage basierend auf der Bewertung
+  calculateScoreForQuestion(question: Question, newRating: Rating): void {
+    question.rating = newRating;
     switch (question.rating) {
       case Rating.FULL:
         question.yourValue = question.weight;
@@ -87,20 +83,22 @@ export class EngagementComponent implements OnInit {
         question.yourValue = 0;
         break;
     }
-    return question.yourValue;
   }
 
-  /*calculateTotalScore(): void {
-    this.totalScore = 0;
-    this.questions.forEach(q => {
-      this.totalScore += q.yourValue;
-    });
-  }*/
+  // Berechnet die Werte für alle Fragen und zeigt das Gesamtergebnis an
+  onSubmit(): void {
+    let totalValue = 0;
 
-  // Function to handle form submission or changes
-  onSubmit() {
-    //this.calculateTotalScore();
-    alert(`Your total value: ${this.maxRating}`)
+    this.questions.forEach((question, index) => {
+      const ratingControl = this.ratingForm.get(`rating${index}`);
+      if (ratingControl) {
+        const newRating = ratingControl.value;
+        this.calculateScoreForQuestion(question, newRating);
+        totalValue += Number(question.yourValue);
+      }
+    });
+
+    alert(`Your total value: ${totalValue} / ${this.maxRating}`);
     console.log(this.ratingForm.value);
   }
 }
