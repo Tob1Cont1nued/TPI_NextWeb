@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormGroup, FormControl } from '@angular/forms';
+// import { FormGroup, FormControl } from '@angular/forms';
 import { ActivatedRoute, RouterModule, RouterOutlet } from '@angular/router';
  import { NzIconModule } from 'ng-zorro-antd/icon';
  import { NzLayoutModule } from 'ng-zorro-antd/layout';
@@ -33,16 +33,17 @@ export class AppComponent {
 
     if (currentLang === 'de-DE') {
       this.translate.use('en-GB').subscribe(() => {
-        console.log('Englische Übersetzungen geladen:', this.translate.instant('questions.communication'));
+        alert('EN Übersetzungen geladen.');
       });
   } else if (currentLang === 'en-GB') {
       this.translate.use('fr-FR').subscribe(() => {
-        console.log('Französische Übersetzungen geladen:', this.translate.instant('questions.communication'));
+        alert('FR Übersetzungen geladen.');
       });
   } else if (currentLang === 'fr-FR') {
       this.translate.use('de-DE').subscribe(() => {
-        console.log('Deutsche Übersetzungen geladen:', this.translate.instant('questions.communication'));
+        alert('DE Übersetzungen geladen.');
       });
+    window.location.reload();
   }
 }
   isCollapsed = false;

@@ -54,8 +54,7 @@
                 "help": "Are there software architects? If so, who are they?",
                 "artifact": "Stakeholder matrix",
                 "weight": "100"
-            },
-            "max": "800"
+            }
         },
         "participation": {
             "1": {
@@ -87,8 +86,7 @@
                 "help": "When does test preparation start? When does it end? When do final activities such as archiving take place?",
                 "artifact": "",
                 "weight": "100"
-            },
-            "max": "500"
+            }
         },        
         "teststrategy": {
             "1": {
@@ -126,8 +124,7 @@
                 "help": "Is there a recommendation from the developer on how much testing is required after defect correction?",
                 "artifact": "Stakeholder matrix",
                 "weight": "100"
-            },
-            "max": "600"
+            }
         },
         "testorganisation": {
             "1": {
@@ -147,8 +144,7 @@
                 "help": "Are there clearly defined responsibilities? Do you know your role and tasks? Is the test manager missing?",
                 "artifact": "Role definition/Org chart",
                 "weight": "100"
-            },
-            "max": "300"
+            }
         },
         "communication": {
             "1": {
@@ -186,8 +182,7 @@
                 "help": "Do you regularly ask for changed/updated requirements or new developments?",
                 "artifact": "",
                 "weight": "100"
-            },
-            "max": "600"
+            }
         },
         "reporting": {
             "1": {
@@ -225,8 +220,7 @@
                 "help": "N/A for customers.",
                 "artifact": "",
                 "weight": "100"
-            },
-            "max": "600"
+            }
         },
         "testprocessmanagement": {
             "1": {
@@ -258,8 +252,7 @@
                 "help": "",
                 "artifact": "",
                 "weight": "100"
-            },
-            "max": "500"
+            }
         },
         "planning": {
             "1": {
@@ -291,8 +284,7 @@
                 "help": "Are dependencies between activities considered in the test planning?",
                 "artifact": "",
                 "weight": "100"
-            },
-            "max": "500"
+            }
         },
         "metrics": {
             "1": {
@@ -318,8 +310,7 @@
                 "help": "Which metrics are used?",
                 "artifact": "",
                 "weight": "100"
-            },
-            "max": "400"
+            }
         },
         "defectmanagement": {
             "1": {
@@ -357,8 +348,7 @@
                 "help": "Which attributes are filled in a defect?",
                 "artifact": "",
                 "weight": "100"
-            },
-            "max": "600"
+            }
         },
         "testwaremanagement": {
             "1": {
@@ -384,8 +374,7 @@
                 "help": "Is the path from requirement to test case to defect traceable?",
                 "artifact": "Coverage matrix",
                 "weight": "50"
-            },
-            "max": "350"
+            }
         },
         "methodicalApproach": {
             "1": {
@@ -411,8 +400,7 @@
                 "help": "",
                 "artifact": "Sign-offs as quality gates",
                 "weight": "100"
-            },
-            "max": "400"
+            }
         },
         "professionalism": {
             "1": {
@@ -450,8 +438,7 @@
                 "help": "",
                 "artifact": "",
                 "weight": "0"
-            },
-            "max": "450"
+            }
         },
         "testdesign": {
             "1": {
@@ -483,8 +470,7 @@
                 "help": "",
                 "artifact": "Test design methods/checklists",
                 "weight": "100"
-            },
-            "max": "500"
+            }
         },
         "tools": {
             "1": {
@@ -504,8 +490,7 @@
                 "help": "",
                 "artifact": "",
                 "weight": "0"
-            },
-            "max": "200"
+            }
         },
         "environment": {
             "1": {
@@ -543,8 +528,7 @@
                 "help": "Is test data available on all environments for testing? Is it fully usable?",
                 "artifact": "",
                 "weight": "100"
-            },
-            "max": "600"
+            }
         }
     }
 }

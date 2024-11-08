@@ -54,8 +54,7 @@
                 "help": "Y a-t-il des architectes logiciels? Si oui, qui sont-ils?",
                 "artifact": "Matrice des parties prenantes",
                 "weight": "100"
-            },
-            "max": "800"
+            }
         },
         "participation": {
             "1": {
@@ -87,8 +86,7 @@
                 "help": "Quand commence la préparation des tests? Quand se termine-t-elle? Quand ont lieu les activités de clôture telles que l'archivage?",
                 "artifact": "",
                 "weight": "100"
-            },
-            "max": "500"
+            }
         },        
         "teststrategy": {
             "1": {
@@ -126,8 +124,7 @@
                 "help": "Y a-t-il une recommandation du développeur sur la quantité de tests nécessaires après la correction des défauts?",
                 "artifact": "Matrice des parties prenantes",
                 "weight": "100"
-            },
-            "max": "600"
+            }
         },
         "testorganisation": {
             "1": {
@@ -147,8 +144,7 @@
                 "help": "Y a-t-il des responsabilités clairement définies? Connaissez-vous votre rôle et vos tâches? Le gestionnaire de tests manque-t-il?",
                 "artifact": "Définition des rôles/Organigramme",
                 "weight": "100"
-            },
-            "max": "300"
+            }
         },
         "communication": {
             "1": {
@@ -186,8 +182,7 @@
                 "help": "Demandez-vous régulièrement des exigences modifiées/mises à jour ou de nouveaux développements?",
                 "artifact": "",
                 "weight": "100"
-            },
-            "max": "600"
+            }
         },
         "reporting": {
             "1": {
@@ -225,8 +220,7 @@
                 "help": "N/A pour les clients.",
                 "artifact": "",
                 "weight": "100"
-            },
-            "max": "600"
+            }
         },
         "testprocessmanagement": {
             "1": {
@@ -258,8 +252,7 @@
                 "help": "",
                 "artifact": "",
                 "weight": "100"
-            },
-            "max": "500"
+            }
         },
         "planning": {
             "1": {
@@ -291,8 +284,7 @@
                 "help": "Les dépendances entre les activités sont-elles prises en compte dans la planification des tests?",
                 "artifact": "",
                 "weight": "100"
-            },
-            "max": "500"
+            }
         },
         "metrics": {
             "1": {
@@ -318,8 +310,7 @@
                 "help": "Quelles métriques sont utilisées?",
                 "artifact": "",
                 "weight": "100"
-            },
-            "max": "400"
+            }
         },
         "defectmanagement": {
             "1": {
@@ -357,8 +348,7 @@
                 "help": "Quels attributs sont remplis dans un défaut?",
                 "artifact": "",
                 "weight": "100"
-            },
-            "max": "600"
+            }
         },
         "testwaremanagement": {
             "1": {
@@ -384,8 +374,7 @@
                 "help": "Le chemin de l'exigence au cas de test au défaut est-il traçable?",
                 "artifact": "Matrice de couverture",
                 "weight": "50"
-            },
-            "max": "350"
+            }
         },
         "methodicalApproach": {
             "1": {
@@ -411,8 +400,7 @@
                 "help": "",
                 "artifact": "Sign-offs en tant que portes de qualité",
                 "weight": "100"
-            },
-            "max": "400"
+            }
         },
         "professionalism": {
             "1": {
@@ -450,8 +438,7 @@
                 "help": "",
                 "artifact": "",
                 "weight": "0"
-            },
-            "max": "450"
+            }
         },
         "testdesign": {
             "1": {
@@ -483,8 +470,7 @@
                 "help": "",
                 "artifact": "Méthodes de conception de test/check-lists",
                 "weight": "100"
-            },
-            "max": "500"
+            }
         },
         "tools": {
             "1": {
@@ -504,8 +490,7 @@
                 "help": "",
                 "artifact": "",
                 "weight": "0"
-            },
-            "max": "200"
+            }
         },
         "environment": {
             "1": {
@@ -543,8 +528,7 @@
                 "help": "Les données de test sont-elles disponibles sur tous les environnements pour les tests? Sont-elles entièrement utilisables?",
                 "artifact": "",
                 "weight": "100"
-            },
-            "max": "600"
+            }
         }
     }
 }
