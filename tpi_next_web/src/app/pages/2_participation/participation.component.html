@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" *ngIf="ratingForm">
     <h2>Grad der Beteiligung</h2>
     <h3>Ein hoher Grad der Beteiligung des Testteams in das Projekt und den Entwicklungsprozess hilft dabei, die meisten Testaktivitäten fern vom kritischen Pfad zu durchlaufen. </h3>
     <form [formGroup]="ratingForm" (ngSubmit)="onSubmit()">
@@ -17,26 +17,26 @@
           </tr>
         </thead>
         <tbody>
-          <tr *ngFor="let question of questions; let i = index">
-            <td>{{ question.question | translate }}</td>
-            <td>{{ question.help | translate }}</td>
-            <td>{{ question.artifact | translate }}</td>
-            
-            <td>
-              <!-- Dropdown for the rating -->
-              <select formControlName="rating{{ i }}">
-                <option *ngFor="let option of ratingOptions" [value]="option">
-                  {{ option }}
-                </option>
-              </select>
-            </td>
-            
-            <td>{{ question.yourValue }}</td>
-            <td>{{ question.weight }}</td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
+          <ng-container *ngFor="let question of questions; let i = index">
+            <tr *ngIf="question.question !== 'max'">
+              <td>{{ question.question | translate }}</td>
+              <td>{{ question.help | translate }}</td>
+              <td>{{ question.artifact | translate }}</td>
+              <td>
+                <!-- Dropdown for the rating -->
+                <select formControlName="rating{{ i }}">
+                  <option *ngFor="let option of ratingOptions" [value]="option">
+                    {{ option | translate }}
+                  </option>
+                </select>
+              </td>
+              <td>{{ question.yourValue }}</td>
+              <td>{{ question.weight }}</td>
+              <td><input formControlName="findings{{ i }}" type="text"></td>
+              <td><input formControlName="measures{{ i }}" type="text"></td>
+              <td><input formControlName="interviewPartner{{ i }}" type="text"></td>
+            </tr>
+          </ng-container>
         </tbody>
       </table>
       <button type="submit">Speichern</button>
