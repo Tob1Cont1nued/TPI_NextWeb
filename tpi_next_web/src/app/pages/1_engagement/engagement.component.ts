@@ -35,16 +35,21 @@ export class EngagementComponent implements OnInit {
   questions: Question[] = [];
   Rating = Rating;
 
-  ratingOptions = [
-    { label: 'trifft vollständig zu', value: Rating.FULL },
-    { label: 'trifft zum Teil zu', value: Rating.PARTIAL },
-    { label: 'trifft nicht zu', value: Rating.NONE },
-  ];
+  ratingOptions: { label: string; value: Rating }[] = [];
 
   constructor(private fb: FormBuilder, private translate: TranslateService) {}
 
   // Initialisiert das Formular und die Fragen beim Laden der Komponente
   ngOnInit(): void {
+    // Rating options
+    this.translate.get(['dropdown.full', 'dropdown.partial', 'dropdown.none']).subscribe(translations => {
+      this.ratingOptions = [
+        { label: translations['dropdown.full'], value: Rating.FULL },
+        { label: translations['dropdown.partial'], value: Rating.PARTIAL },
+        { label: translations['dropdown.none'], value: Rating.NONE }
+      ];
+    });
+
     this.translate.get('questions.engagement').subscribe((data) => {
       const controls: { [key: string]: FormControl } = {};
       this.questions = Object.values(data);

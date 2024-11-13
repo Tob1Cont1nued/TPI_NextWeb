@@ -1,4 +1,87 @@
 {
+    "dropdown":{
+        "full": "s'applique complètement",
+        "partial": "s'applique partiellement",
+        "none": "ne s'applique pas"
+    },
+    "assets": {
+        "global": {
+            "header1": "Questions d'évaluation",
+            "header2": "Questions d'aide",
+            "header3": "Livrables",
+            "header4": "Évaluation",
+            "header5": "Votre valeur",
+            "header6": "Poids",
+            "header7": "Résultats",
+            "header8": "Actions",
+            "header9": "Partenaire d'entretien",
+            "save": "Enregistrer"
+        },
+        "engagement": {
+            "title": "Engagement des parties prenantes",
+            "subtitle": "L'engagement des parties prenantes est essentiel pour une communication efficace et une bonne collaboration"
+        },
+        "participation": {
+            "title": "Degré de participation",
+            "subtitle": "Un niveau élevé de participation de l'équipe de test dans le projet et le processus de développement aide à mener la plupart des activités de test loin du chemin critique."
+        },
+        "teststrategy": {
+            "title": "Stratégie de test",
+            "subtitle": "La stratégie assure un rapport équilibré entre les efforts/ressources et les risques existants."
+        },
+        "testorganisation": {
+            "title": "Organisation des tests",
+            "subtitle": "C'est le porteur de connaissances et il garantit que les ressources de test, les produits de test (processus, outils, modèles, lignes directrices) et les services de test (formations) sont disponibles."
+            },
+        "communication": {
+            "title": "Communication",
+            "subtitle": "Un partage d'informations ciblé et transparent favorise une compréhension commune et des attentes alignées entre tous les participants aux tests."
+        },
+        "reporting": {
+            "title": "Reporting",
+            "subtitle": "Fournit au client/partie prenante des informations concrètes sur la qualité du produit/les risques, permettant ainsi de prendre des décisions."
+        },
+        "testprocessmanagement": {
+            "title": "Gestion du processus de test",
+            "subtitle": "Veille à ce que le projet de test soit optimisé en fonction des coûts, du temps et des résultats convenus."
+        },
+        "planning": {
+            "title": "Estimation des coûts et planification",
+            "subtitle": "Les techniques d'estimation appropriées permettent d'évaluer de manière réaliste et fiable les coûts et de planifier l'approche des tests."
+        },
+        "metrics": {
+            "title": "Métriques",
+            "subtitle": "Les métriques permettent de mesurer objectivement les progrès, les erreurs et le processus."
+        },
+        "defectmanagement": {
+            "title": "Gestion des défauts",
+            "subtitle": "La gestion des défauts suit les erreurs et surveille leur statut individuellement et dans leur ensemble. Elle analyse également les causes et donne des recommandations pour l'action."
+        },
+        "testwaremanagement": {
+            "title": "Gestion des testwares",
+            "subtitle": "Elle veille à ce que les produits de test individuels s'alignent entre eux et avec les documents de conception associés."
+        },
+        "methodicalApproach": {
+            "title": "Approche méthodique",
+            "subtitle": "Une méthode de test guide l'approche de test et aide à atteindre un équilibre entre les types de résultats, les risques, le temps et les coûts avec des objectifs et des prérequis définis."
+        },
+        "professionalism": {
+            "title": "Professionnalisme des testeurs",
+            "subtitle": "Décrit le bon mélange de compétences et d'expertise pour soutenir les tests avec les connaissances nécessaires."
+        },
+        "testdesign": {
+            "title": "Conception des cas de test",
+            "subtitle": "Applique la stratégie de test pour optimiser la détection des défauts."
+        },
+        "tools": {
+            "title": "Outils de test",
+            "subtitle": "Les outils de test accélèrent/permettent les activités de test en prenant en charge le travail de l'équipe de test."
+        },
+        "environment": {
+            "title": "Environnement de test",
+            "subtitle": "Il doit être adapté aux objectifs des différentes phases de test et fournir les fonctionnalités nécessaires."
+        }
+    },
     "questions": {
         "engagement": {
             "1": {

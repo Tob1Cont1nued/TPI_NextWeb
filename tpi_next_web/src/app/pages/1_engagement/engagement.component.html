@@ -1,19 +1,19 @@
 <div class="container" *ngIf="ratingForm">
-    <h2>Engagement der Stakeholder</h2>
-    <h3>Das Engagement der Stakeholder ist maßgebend für eine effiziente Kommunikation und gute Zusammenarbeit</h3>
-    <form [formGroup]="ratingForm" (ngSubmit)="onSubmit()">
+      <h2>{{ 'assets.engagement.title' | translate }}</h2>
+      <h3>{{ 'assets.engagement.subtitle' | translate }}</h3>
+      <form [formGroup]="ratingForm" (ngSubmit)="onSubmit()">
       <table class="table">
         <thead>
           <tr>
-            <th>Bewertungsfragen</th>
-            <th>Hilfsfragen</th>
-            <th>Liefergegenstände</th>
-            <th>Bewertung</th>
-            <th>Ihr Wert</th>
-            <th>Gewichtung</th>
-            <th>Findings</th>
-            <th>Maßnahmen</th>
-            <th>Interviewpartner</th>
+            <th>{{ 'assets.global.header1' | translate }}</th>
+            <th>{{ 'assets.global.header2' | translate }}</th>
+            <th>{{ 'assets.global.header3' | translate }}</th>
+            <th>{{ 'assets.global.header4' | translate }}</th>
+            <th>{{ 'assets.global.header5' | translate }}</th>
+            <th>{{ 'assets.global.header6' | translate }}</th>
+            <th>{{ 'assets.global.header7' | translate }}</th>
+            <th>{{ 'assets.global.header8' | translate }}</th>
+            <th>{{ 'assets.global.header9' | translate }}</th>
           </tr>
         </thead>
         <tbody>
@@ -39,7 +39,7 @@
           </ng-container>
         </tbody>
       </table>
-      <button type="submit">Speichern</button>
+      <button type="submit">{{ 'assets.global.save' | translate }}</button>
     </form>
   </div>
   

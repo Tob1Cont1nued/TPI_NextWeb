@@ -1,4 +1,87 @@
 {
+    "dropdown":{
+        "full": "fully applies",
+        "partial": "partially applies",
+        "none": "does not apply"
+    },
+    "assets": {
+       "global": {
+            "header1": "Evaluation Questions",
+            "header2": "Support Questions",
+            "header3": "Deliverables",
+            "header4": "Rating",
+            "header5": "Your Value",
+            "header6": "Weighting",
+            "header7": "Findings",
+            "header8": "Actions",
+            "header9": "Interview Partner",
+            "save": "Save"
+        },
+        "engagement": {
+            "title": "Stakeholder Engagement",
+            "subtitle": "Stakeholder engagement is key to effective communication and collaboration"
+        },
+        "participation": {
+            "title": "Degree of Participation",
+            "subtitle": "A high level of participation from the testing team in the project and development process helps to carry out most testing activities away from the critical path."
+        },
+        "teststrategy": {
+            "title": "Test Strategy",
+            "subtitle": "The strategy ensures a balanced ratio of effort/resources to the existing risk."
+        },
+        "testorganisation": {
+            "title": "Test Organization",
+            "subtitle": "It is the knowledge bearer and ensures that test resources, test products (processes, tools, templates, guidelines), and test services (training) are available."
+        },
+        "communication": {
+            "title": "Communication",
+            "subtitle": "Targeted and transparent information sharing promotes a common understanding and aligned expectations among all test participants."
+        },
+        "reporting": {
+            "title": "Reporting",
+            "subtitle": "Provides the client/stakeholder with concrete information about product quality/risks, enabling decisions to be made."
+        },
+        "testprocessmanagement": {
+            "title": "Test Process Management",
+            "subtitle": "Ensures that the testing project is optimized within agreed costs, time, and results."
+        },
+        "planning": {
+            "title": "Cost Estimation and Planning",
+            "subtitle": "Appropriate estimation techniques enable realistic and reliable assessment of costs and planning of the test approach."
+        },
+        "metrics": {
+            "title": "Metrics",
+            "subtitle": "Metrics allow for an objective measurement of progress, errors, and the process."
+        },
+        "defectmanagement": {
+            "title": "Defect Management",
+            "subtitle": "Defect management tracks errors and monitors their status individually and as a whole. It also analyzes the causes and provides recommendations for action."
+        },
+        "testwaremanagement": {
+            "title": "Testware Management",
+            "subtitle": "It ensures that individual test products align with each other and with the associated design documents."
+        },
+        "methodicalApproach": {
+            "title": "Methodical Approach",
+            "subtitle": "A test method guides the testing approach and helps to achieve a balanced relationship between result types, risks, time, and costs with defined goals and prerequisites."
+        },
+        "professionalism": {
+            "title": "Tester Professionalism",
+            "subtitle": "Describes the right mix of different skills and expertise to support testing with the required know-how."
+        },
+        "testdesign": {
+            "title": "Test Case Design",
+            "subtitle": "Applies the test strategy to optimize fault detection."
+        },
+        "tools": {
+            "title": "Test Tools",
+            "subtitle": "Test tools accelerate/enable testing activities by taking work off the test team's hands."
+        },
+        "environment": {
+            "title": "Test Environment",
+            "subtitle": "It should be tailored to the goals of the individual test phases and provide the required functionalities."
+        }
+    },
     "questions": {
         "engagement": {
             "1": {

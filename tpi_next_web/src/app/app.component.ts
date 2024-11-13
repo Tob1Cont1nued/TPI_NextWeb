@@ -1,50 +1,59 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-// import { FormGroup, FormControl } from '@angular/forms';
-import { ActivatedRoute, RouterModule, RouterOutlet } from '@angular/router';
- import { NzIconModule } from 'ng-zorro-antd/icon';
- import { NzLayoutModule } from 'ng-zorro-antd/layout';
- import { NzMenuModule } from 'ng-zorro-antd/menu';
+import { RouterModule, RouterOutlet } from '@angular/router';
+import { NzIconModule } from 'ng-zorro-antd/icon';
+import { NzLayoutModule } from 'ng-zorro-antd/layout';
+import { NzMenuModule } from 'ng-zorro-antd/menu';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule, RouterModule, RouterOutlet, NzIconModule, NzLayoutModule, NzMenuModule, TranslateModule],
-  //imports: [CommonModule, RouterModule, RouterOutlet, TranslateModule],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  constructor(private translate: TranslateService) {
-     // Set default language
-     this.translate.setDefaultLang('de-DE');
-     // Use the current language
-     this.translate.use('de-DE');
-
-  }
+export class AppComponent implements OnInit {
   title(title: any) {
     throw new Error('Method not implemented.');
   }
+  isCollapsed = false;
 
+  constructor(private translate: TranslateService) {}
+
+  ngOnInit(): void {
+    // Überprüfe, ob der Code im Browser läuft
+    if (typeof window !== 'undefined') {
+      const savedLang = localStorage.getItem('language') || 'de-DE';
+      this.translate.setDefaultLang(savedLang);
+      this.translate.use(savedLang);
+    } else {
+      // Falls der Code auf dem Server läuft (z. B. Angular Universal), setze eine Standard-Sprache
+      this.translate.setDefaultLang('de-DE');
+      this.translate.use('de-DE');
+    }
+  }
+  
+
+  // Methode für den Wechsel der Sprache
   public switchLanguage(): void {
     const currentLang = this.translate.currentLang;
-    console.log('Aktuelle Sprache:', currentLang);
 
+    // Bestimme die neue Sprache basierend auf der aktuellen
+    let newLang;
     if (currentLang === 'de-DE') {
-      this.translate.use('en-GB').subscribe(() => {
-        alert('EN Übersetzungen geladen.');
-      });
-  } else if (currentLang === 'en-GB') {
-      this.translate.use('fr-FR').subscribe(() => {
-        alert('FR Übersetzungen geladen.');
-      });
-  } else if (currentLang === 'fr-FR') {
-      this.translate.use('de-DE').subscribe(() => {
-        alert('DE Übersetzungen geladen.');
-      });
+      newLang = 'en-GB';
+    } else if (currentLang === 'en-GB') {
+      newLang = 'fr-FR';
+    } else {
+      newLang = 'de-DE';
+    }
+
+    // Speichere die neue Sprache in localStorage und verwende sie
+    localStorage.setItem('language', newLang);
+    this.translate.use(newLang).subscribe(() => {
+      console.log(`Sprache gewechselt zu ${newLang}`);
+    });
     window.location.reload();
   }
-}
-  isCollapsed = false;
 }

@@ -1,4 +1,87 @@
 {
+    "dropdown":{
+        "full": "trifft vollständig zu",
+        "partial": "trifft zum Teil zu",
+        "none": "trifft nicht zu"
+    },
+    "assets": {
+        "global": {
+            "header1": "Bewertungsfragen",
+            "header2": "Hilfsfragen",
+            "header3": "Liefergegenstände",
+            "header4": "Bewertung",
+            "header5": "Ihr Wert",
+            "header6": "Gewichtung",
+            "header7": "Findings",
+            "header8": "Maßnahmen",
+            "header9": "Interviewpartner",
+            "save": "Speichern"
+        },
+        "engagement": {
+            "title": "Engagement der Stakeholder",
+            "subtitle": "Das Engagement der Stakeholder ist maßgebend für eine effiziente Kommunikation und gute Zusammenarbeit"
+        },
+        "participation": {
+            "title": "Grad der Beteiligung",
+            "subtitle": "Ein hoher Grad der Beteiligung des Testteams in das Projekt und den Entwicklungsprozess hilft dabei, die meisten Testaktivitäten fern vom kritischen Pfad zu durchlaufen."
+        },
+        "teststrategy": {
+            "title": "Teststrategie",
+            "subtitle": "Die Strategie sorgt für ein stimmiges Verhältnis von Aufwand/Ressourcen zu dem vorhandenen Risiko."
+        },
+        "testorganisation": {
+            "title": "Testorganisation",
+            "subtitle": "Die ist Wissensträger und sorgt dafür, dass Testressourcen, Testprodukete (Prozesse, Werkzeuge, Templates, Richtlinien) und Testdienstleistungen (Trainings) vorhanden sind."
+        },
+        "communication": {
+            "title": "Kommunikation",
+            "subtitle": "Gezielte und transparente Informationsweitergabe fördert ein gemeinsames Verständnis und abgestimmte Erwartungshaltungen aller im Test beteiligten Personen"
+        },
+        "reporting": {
+            "title": "Berichterstattung",
+            "subtitle": "Gibt dem Auftraggeber/Stakeholder konkrete Informationen über Produktqualität/Rsiken, sodass Entscheidungen getroffen werden können"
+        },
+        "testprocessmanagement": {
+            "title": "Testprozessmanagement",
+            "subtitle": "Sorgt dafür, dass der Testauftrag innerhalb von vorher abgestimmten Kosten + Zeit + Ergebnis optimiert wird."
+        },
+        "planning": {
+            "title": "Kostenschätzung und Planung",
+            "subtitle": "Passende Schätztechniken ermöglichen eine realistsche und zuverlässige Einschätzung der Kosten und Planung des Testvorgehens"
+        },
+        "metrics": {
+            "title": "Metriken",
+            "subtitle": "Durch Metriken ist eine objektive Messung des Fortschritts, der Fehler und des Prozesses möglich."
+        },
+        "defectmanagement": {
+            "title": "Fehlermanagement",
+            "subtitle": "Das Fehlermanagement verfolgt Fehler und überwacht deren Status einzeln und als Gesamtheit. Zusätzlich analysiert es die Ursachen und gibt Handlungsempfehlungen."
+        },
+        "testwaremanagement": {
+            "title": "Testwaremanagement",
+            "subtitle": "Es sorgt dafür, dass die einzelnen Testprodukte zueinander und zu den zugehörigen Entwurfsdokumenten passen."
+        },
+        "methodicalApproach": {
+            "title": "Methodisches Vorgehen",
+            "subtitle": "Eine Testmethode navigiert das Testvorgehen und hilft mit Zielen und Vorbedingungenein ausgelglichenes Verhältnis zwischen Ergbnistypen, Risiken, Zeit und den Kosten zu sorgen."
+        },
+        "professionalism": {
+            "title": "Professionalität der Tester",
+            "subtitle": "Beschreibt die richtige Mischung aus unterschiedlichen Fähigkeiten und Fachwissen, um die Tests mit dem erfoderlichen Know-How zu unterstützen."
+        },
+        "testdesign": {
+            "title": "Testfalldesign",
+            "subtitle": "Setzt die Teststrategie ein, um die Fehlersuche zu optimieren."
+        },
+        "tools": {
+            "title": "Testwerkzeuge",
+            "subtitle": "Testwerkzeuge beschleunigen/ermöglichen die Testaktivitäten indem sie dem Testteam Arbeit abnehmen."
+        },
+        "environment": {
+            "title": "Testumgebung",
+            "subtitle": "Diese sollte auf die Ziele der einzelnen Teststufen angepasst sein und die jeweils benötigen Funktionalitäten bieten."
+        }  
+    },
     "questions": {
         "engagement": {
             "1": {
