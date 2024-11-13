@@ -1,0 +1,617 @@
+{
+    "dropdown":{
+        "full": "s'applique complètement",
+        "partial": "s'applique partiellement",
+        "none": "ne s'applique pas"
+    },
+    "assets": {
+        "global": {
+            "header1": "Questions d'évaluation",
+            "header2": "Questions d'aide",
+            "header3": "Livrables",
+            "header4": "Évaluation",
+            "header5": "Votre valeur",
+            "header6": "Poids",
+            "header7": "Résultats",
+            "header8": "Actions",
+            "header9": "Partenaire d'entretien",
+            "save": "Enregistrer"
+        },
+        "engagement": {
+            "title": "Engagement des parties prenantes",
+            "subtitle": "L'engagement des parties prenantes est essentiel pour une communication efficace et une bonne collaboration"
+        },
+        "participation": {
+            "title": "Degré de participation",
+            "subtitle": "Un niveau élevé de participation de l'équipe de test dans le projet et le processus de développement aide à mener la plupart des activités de test loin du chemin critique."
+        },
+        "teststrategy": {
+            "title": "Stratégie de test",
+            "subtitle": "La stratégie assure un rapport équilibré entre les efforts/ressources et les risques existants."
+        },
+        "testorganisation": {
+            "title": "Organisation des tests",
+            "subtitle": "C'est le porteur de connaissances et il garantit que les ressources de test, les produits de test (processus, outils, modèles, lignes directrices) et les services de test (formations) sont disponibles."
+            },
+        "communication": {
+            "title": "Communication",
+            "subtitle": "Un partage d'informations ciblé et transparent favorise une compréhension commune et des attentes alignées entre tous les participants aux tests."
+        },
+        "reporting": {
+            "title": "Reporting",
+            "subtitle": "Fournit au client/partie prenante des informations concrètes sur la qualité du produit/les risques, permettant ainsi de prendre des décisions."
+        },
+        "testprocessmanagement": {
+            "title": "Gestion du processus de test",
+            "subtitle": "Veille à ce que le projet de test soit optimisé en fonction des coûts, du temps et des résultats convenus."
+        },
+        "planning": {
+            "title": "Estimation des coûts et planification",
+            "subtitle": "Les techniques d'estimation appropriées permettent d'évaluer de manière réaliste et fiable les coûts et de planifier l'approche des tests."
+        },
+        "metrics": {
+            "title": "Métriques",
+            "subtitle": "Les métriques permettent de mesurer objectivement les progrès, les erreurs et le processus."
+        },
+        "defectmanagement": {
+            "title": "Gestion des défauts",
+            "subtitle": "La gestion des défauts suit les erreurs et surveille leur statut individuellement et dans leur ensemble. Elle analyse également les causes et donne des recommandations pour l'action."
+        },
+        "testwaremanagement": {
+            "title": "Gestion des testwares",
+            "subtitle": "Elle veille à ce que les produits de test individuels s'alignent entre eux et avec les documents de conception associés."
+        },
+        "methodicalApproach": {
+            "title": "Approche méthodique",
+            "subtitle": "Une méthode de test guide l'approche de test et aide à atteindre un équilibre entre les types de résultats, les risques, le temps et les coûts avec des objectifs et des prérequis définis."
+        },
+        "professionalism": {
+            "title": "Professionnalisme des testeurs",
+            "subtitle": "Décrit le bon mélange de compétences et d'expertise pour soutenir les tests avec les connaissances nécessaires."
+        },
+        "testdesign": {
+            "title": "Conception des cas de test",
+            "subtitle": "Applique la stratégie de test pour optimiser la détection des défauts."
+        },
+        "tools": {
+            "title": "Outils de test",
+            "subtitle": "Les outils de test accélèrent/permettent les activités de test en prenant en charge le travail de l'équipe de test."
+        },
+        "environment": {
+            "title": "Environnement de test",
+            "subtitle": "Il doit être adapté aux objectifs des différentes phases de test et fournir les fonctionnalités nécessaires."
+        }
+    },
+    "questions": {
+        "engagement": {
+            "1": {
+                "question": "Le responsable des exigences / le département responsable des exigences est connu",
+                "help": "Savez-vous qui est responsable de quelle exigence?",
+                "artifact": "Cas de test, critères d'acceptation",
+                "weight": "50"
+            },
+            "2": {
+                "question": "Les testeurs connaissent le client",
+                "help": "Qui est votre client?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "3": {
+                "question": "Le client a approuvé le budget et celui-ci peut être négocié avec lui",
+                "help": "La durée du test peut-elle être négociée avec le client?",
+                "artifact": "",
+                "weight": "50"
+            },
+            "4": {
+                "question": "Les ressources de test sont fournies par les parties prenantes.",
+                "help": "Les testeurs des départements sont-ils fournis sur demande?",
+                "artifact": "Matrice des parties prenantes",
+                "weight": "100"
+            },
+            "5": {
+                "question": "Le client a créé une analyse des risques du produit documentée",
+                "help": "Y a-t-il une analyse des risques pour le logiciel?",
+                "artifact": "Matrice des parties prenantes",
+                "weight": "100"
+            },
+            "6": {
+                "question": "Les départements qui travaillent avec le produit sont connus",
+                "help": "Quels départements travaillent avec le logiciel?",
+                "artifact": "Matrice des parties prenantes",
+                "weight": "100"
+            },
+            "7": {
+                "question": "Les processus de publication et les contacts sont connus",
+                "help": "Qui est le principal contact dans la gestion des publications? Y a-t-il des scénarios de publication?",
+                "artifact": "Matrice des parties prenantes",
+                "weight": "100"
+            },
+            "8": {
+                "question": "Les développeurs sont connus",
+                "help": "Y a-t-il des développeurs de logiciels? Si oui, qui sont-ils? internes / externes?",
+                "artifact": "Matrice des parties prenantes",
+                "weight": "100"
+            },
+            "9": {
+                "question": "Les architectes logiciels sont connus",
+                "help": "Y a-t-il des architectes logiciels? Si oui, qui sont-ils?",
+                "artifact": "Matrice des parties prenantes",
+                "weight": "100"
+            }
+        },
+        "participation": {
+            "1": {
+                "question": "L'étendue, la mission de test et l'approche sont convenues avec le client",
+                "help": "Le client connaît-il la durée estimée des tests? Connaît-il le contenu et y a-t-il consenti?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "2": {
+                "question": "Un membre de l'équipe de test est impliqué dans la planification du projet afin que les dépendances entre le processus de test et d'autres processus (par exemple, la gestion des exigences) puissent être prises en compte",
+                "help": "Quelqu'un de l'équipe de test est-il impliqué dans le projet dès le début? Sait-il quand les exigences sont définies et quand les objets de développement sont prêts pour les tests?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "3": {
+                "question": "Un testeur est impliqué dans l'analyse, l'évaluation et la gestion des risques du projet.",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "4": {
+                "question": "La planification des tests est effectuée simultanément à la planification du projet",
+                "help": "Qui crée le plan de projet? Quand la planification des tests a-t-elle lieu?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "5": {
+                "question": "Seule l'exécution des tests se trouve sur le chemin critique du projet",
+                "help": "Quand commence la préparation des tests? Quand se termine-t-elle? Quand ont lieu les activités de clôture telles que l'archivage?",
+                "artifact": "",
+                "weight": "100"
+            }
+        },        
+        "teststrategy": {
+            "1": {
+                "question": "Les risques produits qui pourraient affecter la mise en production ont été analysés.",
+                "help": "Y a-t-il des cas de test spécifiques pour la mise en production? Par exemple, pour vérifier les fonctionnalités les plus importantes?",
+                "artifact": "Analyse des risques produits",
+                "weight": "100"
+            },
+            "2": {
+                "question": "Les risques produits sont inclus dans la priorisation des cas de test.",
+                "help": "Y a-t-il une priorisation des cas de test? Comment cela a-t-il été fait?",
+                "artifact": "Stratégie de test (incluse dans le concept de test)",
+                "weight": "100"
+            },
+            "3": {
+                "question": "L'effort final de test/les ressources ont été déterminés après une analyse des risques.",
+                "help": "La relation entre le risque et l'effort a-t-elle été prise en compte?",
+                "artifact": "Stratégie de test (incluse dans le concept de test)",
+                "weight": "100"
+            },
+            "4": {
+                "question": "Les composants logiciels ou processus particulièrement risqués sont testés en premier (en termes de temps).",
+                "help": "Les composants logiciels risqués sont-ils testés en premier? Y a-t-il un aperçu de ceux-ci?",
+                "artifact": "Stratégie de test (incluse dans le concept de test)",
+                "weight": "100"
+            },
+            "5": {
+                "question": "Les risques sont pris en compte à différents niveaux de test, types de test et couverture et intensité des tests.",
+                "help": "Les tests sont-ils effectués à différents niveaux de test, qui diffèrent en termes d'objectif et d'intensité? (Tests de développeur, tests système, tests d'acceptation)",
+                "artifact": "Stratégie de test (incluse dans le concept de test)",
+                "weight": "100"
+            },
+            "6": {
+                "question": "Les retests de défauts et les tests de régression sont effectués.",
+                "help": "Y a-t-il une recommandation du développeur sur la quantité de tests nécessaires après la correction des défauts?",
+                "artifact": "Matrice des parties prenantes",
+                "weight": "100"
+            }
+        },
+        "testorganisation": {
+            "1": {
+                "question": "Il existe une unité organisationnelle ou de projet responsable des produits de test et du support.",
+                "help": "Existe-t-il une unité organisationnelle ou de projet responsable des produits de test et du support?",
+                "artifact": "Description des tâches",
+                "weight": "100"
+            },
+            "2": {
+                "question": "Il existe un aperçu des produits et services connus des testeurs.",
+                "help": "Existe-t-il un aperçu des produits et services du département (par exemple, des modèles)?",
+                "artifact": "Description des tâches",
+                "weight": "100"
+            },
+            "3": {
+                "question": "Il existe des responsabilités clairement définies et un aperçu des rôles (testeur, concepteur de tests, développeur, gestionnaire de publication, gestionnaire d'environnement, chef de projet, gestionnaire de tests, gestionnaire de défauts; y compris les noms).",
+                "help": "Y a-t-il des responsabilités clairement définies? Connaissez-vous votre rôle et vos tâches? Le gestionnaire de tests manque-t-il?",
+                "artifact": "Définition des rôles/Organigramme",
+                "weight": "100"
+            }
+        },
+        "communication": {
+            "1": {
+                "question": "Les membres de l'équipe sont informés des décisions du projet",
+                "help": "Comment recevez-vous des informations sur les décisions du projet?",
+                "artifact": "Plan de communication (Qu'est-ce qui est communiqué par qui et quand, et qui reçoit cette information?)",
+                "weight": "100"
+            },
+            "2": {
+                "question": "Tous les membres de l'équipe connaissent le statut et la phase du projet",
+                "help": "Dans quelle phase du projet se trouve actuellement le projet? Comment le statut est-il indiqué par couleur?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "3": {
+                "question": "Les décisions, actions et résultats de l'équipe de test peuvent être tracés",
+                "help": "Comment les décisions sont-elles enregistrées par l'équipe de test? Comment un nouveau membre du projet peut-il être informé des décisions précédentes?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "4": {
+                "question": "Il y a un échange régulier entre l'équipe de test et les parties prenantes sur : l'avancement du projet et des tests, la qualité du produit et les risques",
+                "help": "Y a-t-il une réunion de statut sur l'avancement des tests et les défauts? Y a-t-il un rapport de statut?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "5": {
+                "question": "L'équipe de test informe de manière proactive les parties prenantes des retards/problèmes dans les tests",
+                "help": "Y a-t-il une requête de risque dans le statut? Comment les problèmes dans les tests sont-ils abordés? Y a-t-il des options d'action en cas de problèmes, ou doivent-ils être acceptés?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "6": {
+                "question": "L'équipe de test demande activement aux parties prenantes des informations pertinentes pour le test",
+                "help": "Demandez-vous régulièrement des exigences modifiées/mises à jour ou de nouveaux développements?",
+                "artifact": "",
+                "weight": "100"
+            }
+        },
+        "reporting": {
+            "1": {
+                "question": "Il y a des rapports écrits réguliers sur l'avancement des tests (ACTUEL/PLAN) en termes de temps, budget, cas de test, défauts.",
+                "help": "Y a-t-il des rapports de test sur l'avancement ventilés par temps/budget/cas de test et défauts?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "2": {
+                "question": "Les rapports contiennent des résultats et des risques.",
+                "help": "Les rapports contiennent-ils des résultats et des risques?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "3": {
+                "question": "Les parties prenantes sont satisfaites du contenu, de la qualité et de la fréquence des rapports.",
+                "help": "Êtes-vous satisfait du contenu, de la qualité et de la fréquence des rapports?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "4": {
+                "question": "Les risques produits et les risques projets sont inclus dans les rapports.",
+                "help": "N/A pour les clients.",
+                "artifact": "",
+                "weight": "50"
+            },
+            "5": {
+                "question": "Il y a des analyses de tendance sur les défauts/cas de test.",
+                "help": "N/A pour les clients.",
+                "artifact": "",
+                "weight": "50"
+            },
+            "6": {
+                "question": "Les rapports contiennent des recommandations pour les décisions.",
+                "help": "N/A pour les clients.",
+                "artifact": "",
+                "weight": "100"
+            }
+        },
+        "testprocessmanagement": {
+            "1": {
+                "question": "Il y a un plan de test qui spécifie qui fait quoi et quand. Cela couvre toutes les phases du processus de test.",
+                "help": "Y a-t-il un calendrier pour chaque phase de test? Les ressources sont-elles allouées pour les tâches respectives? Les absences sont-elles prises en compte?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "2": {
+                "question": "Le plan de test comprend la mission de test, la période, la planification des ressources, les rôles et les responsabilités.",
+                "help": "Connaissez-vous les périodes de test?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "3": {
+                "question": "Les attentes du client concernant la portée, le coût et la qualité des tests sont claires.",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "4": {
+                "question": "Un rapport reflète l'avancement du plan de test et les mesures appropriées.",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "5": {
+                "question": "Le plan de test est coordonné avec les parties prenantes (y compris le client).",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            }
+        },
+        "planning": {
+            "1": {
+                "question": "Il existe une estimation des ressources nécessaires par activité de test",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "2": {
+                "question": "Il y a un budget alloué pour chaque phase du processus de test.",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "3": {
+                "question": "Le client est activement impliqué dans les estimations.",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "4": {
+                "question": "La durée de chaque activité de test (planification des tests, gestion des tests, exécution des tests), les ressources nécessaires et les résultats attendus sont connus",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "5": {
+                "question": "La planification des tests prend en compte les dépendances entre les différentes phases ou activités.",
+                "help": "Les dépendances entre les activités sont-elles prises en compte dans la planification des tests?",
+                "artifact": "",
+                "weight": "100"
+            }
+        },
+        "metrics": {
+            "1": {
+                "question": "Des métriques sont utilisées pour évaluer et surveiller le projet de test.",
+                "help": "Y a-t-il des métriques qui évaluent l'objet du test?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "2": {
+                "question": "Les données nécessaires sont déterminées de manière synchrone et toutes les métriques sont stockées de manière centralisée.",
+                "help": "Les données sous-jacentes des métriques sont-elles déterminées de manière synchrone et stockées de manière centralisée?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "3": {
+                "question": "Il y a des vérifications pour valider les données utilisées (échantillons)",
+                "help": "Les métriques utilisées sont-elles vérifiées par échantillonnage pour s'assurer que les données sont valides et que les filtres sont correctement réglés?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "4": {
+                "question": "Au moins 7 des métriques suivantes sont utilisées : ratio de couverture des tests, nombre de cas de test planifiés/déjà créés, avancement des tests (réel/plan), ratio d'exécution des tests, gravité des défauts, nombre de défauts en production, part du budget consommé, phases de test/heures consommées, taux d'inactivité, critères de fin de test",
+                "help": "Quelles métriques sont utilisées?",
+                "artifact": "",
+                "weight": "100"
+            }
+        },
+        "defectmanagement": {
+            "1": {
+                "question": "Il existe une gestion des défauts incluant le cycle de vie des défauts, connue de l'équipe de test/équipe de développement",
+                "help": "Quelles sont les phases du cycle de vie des défauts? Qui décide si un défaut est fermé? Comment voit-on qu'un défaut est corrigé dans le système?",
+                "artifact": "Processus de gestion des défauts",
+                "weight": "100"
+            },
+            "2": {
+                "question": "Des réunions régulières sur les défauts soutiennent la gestion des défauts",
+                "help": "Y a-t-il des réunions régulières pour discuter de certains défauts ou de la propension aux défauts d'un composant?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "3": {
+                "question": "Les personnes responsables dans le processus de gestion des défauts sont définies (testeur/développeur/gestionnaire d'environnement/gestionnaire de tests...)",
+                "help": "Qui est impliqué dans le processus de gestion des défauts et quelles sont leurs tâches?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "4": {
+                "question": "Les outils de gestion des défauts utilisés sont accessibles aux personnes responsables.",
+                "help": "Les défauts sont-ils visibles par tous? Les définitions de gravité sont-elles transparentes et connues? Y a-t-il des outils de débogage spéciaux également utilisables?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "5": {
+                "question": "La gestion des retests de défauts (complets/partiels) est définie.",
+                "help": "Que teste-t-on après la correction d'un défaut? Y a-t-il des directives sur la quantité de retests (seulement le défaut, le composant entier défectueux, le composant avec les composants adjacents)?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "6": {
+                "question": "Les attributs minimaux de chaque défaut sont : créateur/testeur, ID, date, gravité, description (résultat attendu vs. résultat réel), titre, statut",
+                "help": "Quels attributs sont remplis dans un défaut?",
+                "artifact": "",
+                "weight": "100"
+            }
+        },
+        "testwaremanagement": {
+            "1": {
+                "question": "Il existe une gestion des versions pour les objets de test/exigences (numéro de version et nom) accessible à l'équipe de test.",
+                "help": "Est-il immédiatement clair quels défauts appartiennent à quelle version d'exigence?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "2": {
+                "question": "Il existe une procédure documentée pour gérer les testwares, la base de test et les objets de test. Cela est connu de l'équipe.",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "3": {
+                "question": "Les cas de test se réfèrent chacun à une version/document de la base de test.",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "4": {
+                "question": "Les cas de test et les exigences sont liés.",
+                "help": "Le chemin de l'exigence au cas de test au défaut est-il traçable?",
+                "artifact": "Matrice de couverture",
+                "weight": "50"
+            }
+        },
+        "methodicalApproach": {
+            "1": {
+                "question": "Il existe différents niveaux de test définis qui sont suivis dans le projet (tests unitaires, tests de composants, tests d'intégration, tests de régression...)",
+                "help": "",
+                "artifact": "Glossaire, critères d'acceptation",
+                "weight": "100"
+            },
+            "2": {
+                "question": "Les objectifs des niveaux de test sont documentés et correspondent à la stratégie de test.",
+                "help": "",
+                "artifact": "Concept de test",
+                "weight": "100"
+            },
+            "3": {
+                "question": "Les différents niveaux de test sont alignés avec l'approche du projet/le développement et sont documentés.",
+                "help": "Les environnements sont-ils adaptés à chaque test?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "4": {
+                "question": "L'équipe projet et l'équipe de test soutiennent les méthodes de test choisies.",
+                "help": "",
+                "artifact": "Sign-offs en tant que portes de qualité",
+                "weight": "100"
+            }
+        },
+        "professionalism": {
+            "1": {
+                "question": "Les testeurs planifient leurs activités de test en consultation avec leurs collègues, les réalisent de manière autonome et fournissent des retours proactifs.",
+                "help": "Comment planifiez-vous vos activités de test? Impliquez-vous d'autres collègues de l'équipe? Que se passe-t-il si vous tombez malade ou planifiez des vacances?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "2": {
+                "question": "Les testeurs reçoivent des formations dédiées aux tests ou ont déjà une expérience suffisante dans l'exécution structurée des tests.",
+                "help": "Y a-t-il des formations sur les spécifications de test de FI? Est-il possible pour les testeurs de participer à des formations si nécessaire?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "3": {
+                "question": "La méthode de test est connue des testeurs et est utilisée.",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "4": {
+                "question": "L'équipe de test a accès aux connaissances spécialisées et techniques nécessaires.",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "5": {
+                "question": "Les testeurs sont certifiés selon le niveau de base ISTQB.",
+                "help": "",
+                "artifact": "",
+                "weight": "50"
+            },
+            "6": {
+                "question": "Il y a des évaluations de performance régulières des testeurs concernant leurs compétences en test et en informatique.",
+                "help": "",
+                "artifact": "",
+                "weight": "0"
+            }
+        },
+        "testdesign": {
+            "1": {
+                "question": "Les cas de test sont répétables indépendamment de la personne (à condition que les testeurs aient un niveau de connaissance similaire).",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "2": {
+                "question": "Les cas de test logiques sont d'abord décrits, puis concrétisés.",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "3": {
+                "question": "Chaque cas de test contient les informations suivantes : situation initiale, description des actions dans le cas de test, résultat attendu.",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "4": {
+                "question": "L'objet de test associé (partie de la base de test testée) est mentionné dans le cas de test.",
+                "help": "",
+                "artifact": "",
+                "weight": "100"
+            },
+            "5": {
+                "question": "Des check-lists ou des techniques de conception formelles sont utilisées pour créer des cas de test.",
+                "help": "",
+                "artifact": "Méthodes de conception de test/check-lists",
+                "weight": "100"
+            }
+        },
+        "tools": {
+            "1": {
+                "question": "Les outils de test nécessaires aux activités de test sont accessibles à l'équipe de test (par exemple, outils de planification, stubs, outils de contrôle, outils d'exécution de test).",
+                "help": "Quels outils de test sont utilisés? Sont-ils accessibles à toute l'équipe?",
+                "artifact": "Sélection des outils",
+                "weight": "100"
+            },
+            "2": {
+                "question": "L'équipe de test connaît les outils utilisés.",
+                "help": "N/A Résulte des réponses à la première question.",
+                "artifact": "",
+                "weight": "100"
+            },
+            "3": {
+                "question": "Les parties prenantes impliquées dans l'outil (achats, projet, équipe de test) sont convaincues des avantages de l'outil.",
+                "help": "",
+                "artifact": "",
+                "weight": "0"
+            }
+        },
+        "environment": {
+            "1": {
+                "question": "Il existe des exigences clairement définies pour l'environnement de test.",
+                "help": "Combien d'utilisateurs peuvent utiliser l'environnement simultanément? Quelles sont les disponibilités? Quelles sont les exigences du département de test?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "2": {
+                "question": "Les tâches et responsabilités pour l'environnement sont définies et convenues avec les parties responsables (par exemple, le gestionnaire de l'environnement).",
+                "help": "Qui est responsable de l'environnement? Qui informe sur les temps d'arrêt et les périodes de test?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "3": {
+                "question": "L'environnement est disponible sans interruption pendant les périodes de test définies.",
+                "help": "L'environnement est-il entièrement disponible pendant les tests?",
+                "artifact": "Calendrier de l'environnement",
+                "weight": "100"
+            },
+            "4": {
+                "question": "Les modifications de l'environnement de test sont communiquées en temps opportun au gestionnaire de test.",
+                "help": "Y a-t-il une gestion des changements pour les modifications? Comment le gestionnaire de test et l'équipe sont-ils informés des modifications? Quel est le délai de préavis pour les modifications? Y a-t-il une option de veto?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "5": {
+                "question": "Le gestionnaire de test peut demander un gel de l'environnement avec le chef de projet.",
+                "help": "Un gel de l'environnement peut-il être demandé?",
+                "artifact": "",
+                "weight": "100"
+            },
+            "6": {
+                "question": "Les données de test sont prises en compte",
+                "help": "Les données de test sont-elles disponibles sur tous les environnements pour les tests? Sont-elles entièrement utilisables?",
+                "artifact": "",
+                "weight": "100"
+            }
+        }
+    }
+}

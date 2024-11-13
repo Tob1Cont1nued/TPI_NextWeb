@@ -12,6 +12,8 @@
       <a routerLink="/landing-page"><h1>TM-Assesment</h1>
       </a>
     </div>
+    <button (click)="switchLanguage()">Switch Language</button>
+    <router-outlet></router-outlet>
     <ul nz-menu nzTheme="dark" nzMode="inline" [nzInlineCollapsed]="isCollapsed">
       <li nz-submenu nzOpen nzTitle="Stakeholderbeziehung" nzIcon="team">
         <ul>

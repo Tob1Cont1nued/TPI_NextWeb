@@ -1,24 +1,22 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { EngagementComponent } from './pages/engagement/engagement.component';
-import { ManagementComponent } from './pages/management/management.component';
-import { CompetenceComponent } from './pages/competence/competence.component';
-import { DefectmanagementComponent } from './pages/defectmanagement/defectmanagement.component';
-import { EnvironmentComponent } from './pages/environment/environment.component';
-import { MethodicalApproachComponent } from './pages/methodical-approach/methodical-approach.component';
-import { MetricsComponent } from './pages/metrics/metrics.component';
-import { ParticipationComponent } from './pages/participation/participation.component';
-import { PlanningComponent } from './pages/planning/planning.component';
-import { ProfessionalismComponent } from './pages/professionalism/professionalism.component';
-import { ReportingComponent } from './pages/reporting/reporting.component';
-import { TestdesignComponent } from './pages/testdesign/testdesign.component';
-import { TestorganisationComponent } from './pages/testorganisation/testorganisation.component';
-import { TestprocessmanagementComponent } from './pages/testprocessmanagement/testprocessmanagement.component';
-import { TeststrategyComponent } from './pages/teststrategy/teststrategy.component';
-import { TestwaremanagementComponent } from './pages/testwaremanagement/testwaremanagement.component';
-import { ToolsComponent } from './pages/tools/tools.component';
+import { EngagementComponent } from './pages/1_engagement/engagement.component';
+import { ParticipationComponent } from './pages/2_participation/participation.component';
+import { TeststrategyComponent } from './pages/3_teststrategy/teststrategy.component';
+import { TestorganisationComponent } from './pages/4_testorganisation/testorganisation.component';
+import { CommunicationComponent } from './pages/5_communication/communication.component';
+import { TestprocessmanagementComponent } from './pages/7_testprocessmanagement/testprocessmanagement.component';
+import { ReportingComponent } from './pages/6_reporting/reporting.component';
+import { PlanningComponent } from './pages/8_planning/planning.component';
+import { MetricsComponent } from './pages/9_metrics/metrics.component';
+import { DefectmanagementComponent } from './pages/10_defectmanagement/defectmanagement.component';
+import { TestwaremanagementComponent } from './pages/11_testwaremanagement/testwaremanagement.component';
+import { MethodicalApproachComponent } from './pages/12_methodical-approach/methodical-approach.component';
+import { ProfessionalismComponent } from './pages/13_professionalism/professionalism.component';
+import { TestdesignComponent } from './pages/14_testdesign/testdesign.component';
+import { ToolsComponent } from './pages/15_tools/tools.component';
+import { EnvironmentComponent } from './pages/16_environment/environment.component';
 import { WelcomeComponent } from './pages/welcome/welcome.component';
-import { CommunicationComponent } from './pages/communication/communication.component';
 import { LoginComponent } from './pages/login/login.component.spec';
 import { EvaluationComponent } from './pages/evaluation/evaluation.component';
 
@@ -27,8 +25,6 @@ export const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'welcome', component: WelcomeComponent },
   { path: 'engagement', component: EngagementComponent },
-  { path: 'management', component: ManagementComponent },
-  { path: 'competence', component: CompetenceComponent },
   { path: 'communication', component: CommunicationComponent },
   { path: 'defectmanagement', component: DefectmanagementComponent },
   { path: 'environment', component: EnvironmentComponent },
