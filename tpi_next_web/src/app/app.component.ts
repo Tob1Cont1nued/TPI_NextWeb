@@ -15,7 +15,6 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
   styleUrls: ['./app.component.css']
 })
 
-export class AppComponent {
 export class AppComponent implements OnInit {
   title(title: any) {
     throw new Error('Method not implemented.');
