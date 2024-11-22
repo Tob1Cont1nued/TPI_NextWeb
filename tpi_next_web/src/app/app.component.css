@@ -84,6 +84,25 @@ nz-content {
   height: 100%;
 }
 
+.language-button {
+  background: none; /* Kein Hintergrund */
+  border: none; /* Kein Rahmen */
+  cursor: pointer;
+  padding: 5; /* Kein zusätzlicher Abstand */
+}
+
+.language-button .flag-icon {
+  width: 64px;
+  height: 40px;
+  display: block;
+  margin: 0; /* Kein zusätzlicher Außenabstand */
+}
+
+.language-switcher {
+  display: flex;
+  justify-content: center; /* Zentriert die Buttons */
+  margin: 10px 0;
+
 .profile-icon {
   display: flex;
   align-items: center;
@@ -98,4 +117,5 @@ nz-content {
   border: 2px solid #fff; /* Optional: Weißer Rand um das Profilbild */
   padding-right: 0;
   margin-right: 16px;
+
 }
