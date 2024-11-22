@@ -39,7 +39,7 @@ export class AppComponent implements OnInit {
   
 
   // Methode für den Wechsel der Sprache
-  public switchLanguage(): void {
+/*  public switchLanguage(): void {
     const currentLang = this.translate.currentLang;
 
     // Bestimme die neue Sprache basierend auf der aktuellen
@@ -56,6 +56,30 @@ export class AppComponent implements OnInit {
     localStorage.setItem('language', newLang);
     this.translate.use(newLang).subscribe(() => {
       console.log(`Sprache gewechselt zu ${newLang}`);
+    });
+    window.location.reload();
+  }
+*/
+  public switchEN(): void {
+    localStorage.setItem('language', 'en-GB');
+    this.translate.use('en-GB').subscribe(() => {
+      console.log(`Sprache gewechselt zu ${'en-GB'}`);
+    });
+    window.location.reload();
+  }
+
+  public switchDE(): void {
+    localStorage.setItem('language', 'de-DE');
+    this.translate.use('de-DE').subscribe(() => {
+      console.log(`Sprache gewechselt zu ${'de-DE'}`);
+    });
+    window.location.reload();
+  }
+
+  public switchFR(): void {
+    localStorage.setItem('language', 'fr-FR');
+    this.translate.use('fr-FR').subscribe(() => {
+      console.log(`Sprache gewechselt zu ${'fr-FR'}`);
     });
     window.location.reload();
   }
