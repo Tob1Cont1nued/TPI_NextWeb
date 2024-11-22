@@ -6,13 +6,25 @@
     [(nzCollapsed)]="isCollapsed"
     [nzTrigger]="null">
     <div class="sidebar-logo">
-      <a href="https://www.wavestone.com/de/" target="_blank">
+      <a href="https://qperior.sharepoint.com/sites/TestManagement-Community?OR=Teams-HL&CT=1731574649318&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNDEwMjAwMTMxNiIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D" target="_blank">
         <img src="/assets/wavestone.png" alt="logo">  
       </a>
-      <a routerLink="/landing-page"><h1>TM-Assesment</h1>
-      </a>
+      <a routerLink="/landing-page"><h1>TM-Assesment</h1></a>
     </div>
-    <button (click)="switchLanguage()">Switch Language</button>
+    
+    <!-- Sprachumschaltung -->
+    <div class="language-switcher">
+      <button class="language-button" (click)="switchDE()">
+        <img src="/assets/flags/germany.png" alt="Deutsch" class="flag-icon">
+      </button>
+      <button class="language-button" (click)="switchEN()">
+        <img src="/assets/flags/uk.png" alt="English" class="flag-icon">
+      </button>
+      <button class="language-button" (click)="switchFR()">
+        <img src="/assets/flags/france.png" alt="Français" class="flag-icon">
+      </button>
+    </div>
+
     <router-outlet></router-outlet>
     <ul nz-menu nzTheme="dark" nzMode="inline" [nzInlineCollapsed]="isCollapsed">
       <li nz-submenu nzOpen nzTitle="Stakeholderbeziehung" nzIcon="team">
@@ -83,8 +95,8 @@
         <span class="header-trigger" (click)="isCollapsed = !isCollapsed">
             <span class="trigger"
                nz-icon
-               [nzType]="isCollapsed ? 'menu-unfold' : 'menu-fold'"
-            ></span>
+               [nzType]="isCollapsed ? 'menu-unfold' : 'menu-fold'">
+            </span>
         </span>
       </div>
     </nz-header>
