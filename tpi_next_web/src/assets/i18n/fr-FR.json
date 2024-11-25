@@ -1,4 +1,28 @@
 {
+    "component": {
+        "steakholderrelationship": "Relation avec les parties prenantes",
+        "engagement": "Engagement des parties prenantes",
+        "participation": "Degré de participation",
+        "teststrategy": "Stratégie de test",
+        "testorganisation": "Organisation des tests",
+        "communication": "Communication",
+        "reporting": "Rapport",
+        "testmanagement": "Gestion des tests",
+        "testprocessmanagement": "Gestion des processus de test",
+        "planning": "Estimation des coûts et planification",
+        "metrics": "Métriques",
+        "defectmanagement": "Gestion des défauts",
+        "testwaremanagement": "Gestion des testwares",
+        "testcompetence": "Compétence en test",
+        "methodicalapproach": "Approche méthodique",
+        "professionalism": "Professionnalisme des testeurs",
+        "testdesign": "Conception des cas de test",
+        "tools": "Outils de test",
+        "environment": "Environnement de test",
+        "evaluation": "Évaluation",
+        "diagram": "Diagramme KPI",
+        "export": "Exportation PDF"
+    },
     "dropdown":{
         "full": "s'applique complètement",
         "partial": "s'applique partiellement",

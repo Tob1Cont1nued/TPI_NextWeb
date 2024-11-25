@@ -25,77 +25,74 @@
       </button>
     </div>
 
-    <router-outlet></router-outlet>
     <ul nz-menu nzTheme="dark" nzMode="inline" [nzInlineCollapsed]="isCollapsed">
-      <li nz-submenu nzOpen nzTitle="Stakeholderbeziehung" nzIcon="team">
+      <li nz-submenu nzOpen [nzTitle]="'component.steakholderrelationship' | translate" nzIcon="team">
         <ul>
           <li nz-menu-item nzMatchRouter>
-            <a routerLink="/engagement">Engagement der Stakeholder</a>
+            <a routerLink="/engagement" translate="component.engagement"></a>
           </li>
           <li nz-menu-item nzMatchRouter>
-            <a routerLink="/participation">Grad der Beteiligung</a>
+            <a routerLink="/participation" translate="component.participation"></a>
           </li>
           <li nz-menu-item nzMatchRouter>
-            <a routerLink="/teststrategy">Teststrategie</a>
+            <a routerLink="/teststrategy" translate="component.teststrategy"></a>
           </li>
           <li nz-menu-item nzMatchRouter>
-            <a routerLink="/testorganisation">Testorganisation</a>
+            <a routerLink="/testorganisation" translate="component.testorganisation"></a>
           </li>
           <li nz-menu-item nzMatchRouter>
-            <a routerLink="/communication">Kommunikation</a>
+            <a routerLink="/communication" translate="component.communication"></a>
           </li>
           <li nz-menu-item nzMatchRouter>
-            <a routerLink="/reporting">Berichterstattung</a>
+            <a routerLink="/reporting" translate="component.reporting"></a>
           </li>
         </ul>
       </li>
-      <li nz-submenu nzOpen nzTitle="Testmanagement" nzIcon="bar-chart">
+      <li nz-submenu nzOpen [nzTitle]="'component.testmanagement' | translate" nzIcon="bar-chart">
         <ul>
           <li nz-menu-item nzMatchRouter>
-            <a routerLink="/testprocessmanagement">Testprozessmanagement</a>
+            <a routerLink="/testprocessmanagement" translate="component.testprocessmanagement"></a>
           </li>
           <li nz-menu-item nzMatchRouter>
-            <a routerLink="/planning">Kostenschätzung und Planung</a>
+            <a routerLink="/planning" translate="component.planning"></a>
           </li>
           <li nz-menu-item nzMatchRouter>
-            <a routerLink="/metrics">Metriken</a>
+            <a routerLink="/metrics" translate="component.metrics"></a>
           </li>
           <li nz-menu-item nzMatchRouter>
-            <a routerLink="/defectmanagement">Fehlermanagement</a>
+            <a routerLink="/defectmanagement" translate="component.defectmanagement"></a>
           </li>
           <li nz-menu-item nzMatchRouter>
-            <a routerLink="/testwaremanagement">Testwaremanagement</a>
+            <a routerLink="/testwaremanagement" translate="component.testwaremanagement"></a>
           </li>
         </ul>
       </li>
-      <li nz-submenu nzOpen nzTitle="Testkompetenz" nzIcon="experiment">
+      <li nz-submenu nzOpen [nzTitle]="'component.testcompetence' | translate" nzIcon="experiment">
         <ul>
           <li nz-menu-item nzMatchRouter>
-            <a routerLink="/methodical-approach">Methodisches Vorgehen</a>
+            <a routerLink="/methodical-approach" translate="component.methodicalapproach"></a>
           </li>
           <li nz-menu-item nzMatchRouter>
-            <a routerLink="/professionalism">Professionalität der Tester</a>
+            <a routerLink="/professionalism" translate="component.professionalism"></a>
           </li>
           <li nz-menu-item nzMatchRouter>
-            <a routerLink="/testdesign">Testfalldesign</a>
+            <a routerLink="/testdesign" translate="component.testdesign"></a>
           </li>
           <li nz-menu-item nzMatchRouter>
-            <a routerLink="/tools">Testwerkzeuge</a>
+            <a routerLink="/tools" translate="component.tools"></a>
           </li>
           <li nz-menu-item nzMatchRouter>
-            <a routerLink="/environment">Testumgebung</a>
+            <a routerLink="/environment" translate="component.environment"></a>
           </li>
         </ul>
       </li>
-      <li nz-submenu nzOpen nzTitle="Auswertung" nzIcon="project"> 
+      <li nz-submenu nzOpen [nzTitle]="'component.evaluation' | translate" nzIcon="project"> 
         <ul>
           <li nz-menu-item nzMatchRouter>
-            <a routerLink="/diagramm">KPI-Diagramm</a>
+            <a routerLink="/diagramm" translate="component.diagram"></a>
           </li>
-        </ul>
-        <ul>
           <li nz-menu-item nzMatchRouter>
-            <a routerLink="#">PDF-Export</a>
+            <a routerLink="#" translate="component.export"></a>
           </li>
         </ul>
       </li>
