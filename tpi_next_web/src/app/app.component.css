@@ -102,6 +102,7 @@ nz-content {
   display: flex;
   justify-content: center; /* Zentriert die Buttons */
   margin: 10px 0;
+}
 
 .profile-icon {
   display: flex;
