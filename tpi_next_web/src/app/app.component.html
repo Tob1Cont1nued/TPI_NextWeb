@@ -12,18 +12,7 @@
       <a routerLink="/landing-page"><h1>TM-Assesment</h1></a>
     </div>
     
-    <!-- Sprachumschaltung -->
-    <div class="language-switcher">
-      <button class="language-button" (click)="switchDE()">
-        <img src="/assets/flags/germany.png" alt="Deutsch" class="flag-icon">
-      </button>
-      <button class="language-button" (click)="switchEN()">
-        <img src="/assets/flags/uk.png" alt="English" class="flag-icon">
-      </button>
-      <button class="language-button" (click)="switchFR()">
-        <img src="/assets/flags/france.png" alt="Français" class="flag-icon">
-      </button>
-    </div>
+    
 
     <router-outlet></router-outlet>
     <ul nz-menu nzTheme="dark" nzMode="inline" [nzInlineCollapsed]="isCollapsed">
@@ -111,20 +100,20 @@
             </span>
         </span>
 
-<!--        <div class="profile-icon" nz-dropdown [nzDropdownMenu]="profileMenu" nzTrigger="click">
-          <img src="/assets/profile.png" alt="Profil" class="profile-image"/>
-        </div>
-        <nz-dropdown-menu #profileMenu="nzDropdownMenu">
-          <ul nz-menu>
-            <li nz-menu-item>
-              <a routerLink="/profile">Profil ansehen</a>
-            </li>
-            <li nz-menu-item>
-              <a (click)="onLogout()">Abmelden</a>
-            </li>
-          </ul>
-        </nz-dropdown-menu>
--->
+<!-- Hier kommt das Burgermenue hin für Profile, logout usw. -->
+    <!-- Sprachumschaltung -->
+    <div class="language-switcher">
+      <button class="language-button" (click)="switchDE()"> DE
+        <!-- <img src="/assets/flags/germany.png" alt="Deutsch" class="flag-icon"> -->
+      </button> |
+      <button class="language-button" (click)="switchEN()"> EN
+        <!--<img src="/assets/flags/uk.png" alt="English" class="flag-icon"> -->
+      </button> |
+      <button class="language-button" (click)="switchFR()"> FR
+        <!--<img src="/assets/flags/france.png" alt="Français" class="flag-icon"> -->
+      </button> 
+    </div>
+
       </div>
     </nz-header>
     <nz-content>

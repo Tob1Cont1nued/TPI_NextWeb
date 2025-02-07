@@ -6,11 +6,12 @@ import { NzLayoutModule } from 'ng-zorro-antd/layout';
 import { NzMenuModule } from 'ng-zorro-antd/menu';
 import { NzDropDownModule } from 'ng-zorro-antd/dropdown';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { NzButtonModule } from 'ng-zorro-antd/button';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterModule, RouterOutlet, NzIconModule, NzLayoutModule, NzMenuModule, TranslateModule],
+  imports: [CommonModule,NzButtonModule, RouterModule, RouterOutlet, NzIconModule, NzLayoutModule, NzMenuModule, TranslateModule],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
